@@ -1,0 +1,35 @@
+:root {
+    /* Absolute Colors */
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+
+    /* Primary Colors (Green Shades) */
+    --color-green-50: #FDFFFA;
+    --color-green-52: #F9FFF0;
+    --color-green-54: #F5FFE5;
+    --color-green-59: #ECFFCC;
+    --color-green-70: #D8FF99;
+    --color-green-80: #C5FF66;
+    --color-green-90: #B1FF33;
+    --color-green-100: #9EFF00;
+
+    /* Grey Shades */
+    --color-grey-10: #E6E6E6;
+    --color-grey-40: #98989A;
+    --color-grey-60: #656567;
+    --color-grey-65: #59595A;
+    --color-grey-70: #4C4C4D;
+    --color-grey-80: #333333;
+    --color-grey-85: #262626;
+    --color-grey-90: #191919;
+
+    /* Typography */
+    --font-primary: 'Barlow', sans-serif;
+
+    /* Font weights */
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
+}
