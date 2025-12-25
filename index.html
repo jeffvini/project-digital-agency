@@ -282,7 +282,34 @@
                 </article>
             </div>
         </section>
-        <section class="contact-form"></section>
+
+        <section class="contact-form-section">
+            <div class="contact-form-intro">
+                <img class="abstract-agency-logo" src="images/logos/logo-agency-2.svg" alt="Abstract agency logo">
+                <h2>Thank you for your Interest in SquareUp.</h2>
+                <p>We would love to hear from you and discuss how we can help bring your digital ideas to life. Here are the different ways you can get in touch with us.</p>
+                <a href="./contact.html" class="cta-btn">Start Project</a>
+            </div>
+
+            <form class="contact-form" onsubmit="return false;">
+                <div class="input-container">
+                    <div class="name-input">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="email-input">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="message-input">
+                        <label for="message">Your Message</label>
+                        <input type="text" name="message" id="message" placeholder="Type Here" required>
+                    </div>
+                </div>
+
+                <button type="submit" class="cta-btn" aria-label="Submit contact form">Submit</button>
+            </form>
+        </section>
    </main>
 
    <footer>
