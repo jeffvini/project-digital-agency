@@ -11,7 +11,7 @@
    <header>
         <img class="agency-logo" src="images/logos/logo-agency-1.svg" alt="Agency logo">
 
-        <nav class="nav-menu" aria-label="Navigation menu">
+        <nav class="nav-menu" aria-label="Navigation menu Desktop/Tablet">
             <ul>
                 <li><a href="#" class="nav-link">Home</a></li>
                 <li><a href="./services.html" class="nav-link">Services</a></li>
@@ -19,20 +19,21 @@
                 <li><a href="./process.html" class="nav-link">Process</a></li>
                 <li><a href="./about.html" class="nav-link">About</a></li>
                 <li><a href="./careers.html" class="nav-link">Careers</a></li>
-
                 <li><a href="#contact-form" class="cta-btn">Contact Us</a></li>
             </ul>
         </nav>
 
-        <button type="button" class="open-mobile-menu" aria-label="Open menu mobile" aria-controls="nav-menu-mobile" aria-expanded="false"></button>
+        <button type="button" class="open-mobile-menu" aria-label="Open menu mobile" aria-controls="mobile-menu" aria-expanded="false"></button>
 
-        <div class="mobile-menu">
+        <div class="mobile-menu" role="dialog" aria-modal="true" aria-labelledby="mobile-menu-title" hidden>
+            <h2 id="mobile-menu-title" class="visually-hidden">Mobile navigation menu</h2>
+
             <div class="mobile-menu-overlay"></div>
             
             <div class="mobile-menu-panel">
                 <div class="mobile-menu-top">
                     <img class="agency-logo" src="images/logos/logo-agency-1.svg" alt="Agency logo">
-                    <button type="button" class="close-mobile-menu" aria-label="Close menu mobile" aria-controls="nav-menu-mobile" aria-expanded="true"></button>
+                    <button type="button" class="close-mobile-menu" aria-label="Close menu mobile"></button>
                 </div>
                 <nav class="nav-menu-mobile" id="nav-menu-mobile" aria-label="Navigation menu mobile">
                     <ul>
