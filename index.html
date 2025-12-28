@@ -8,39 +8,39 @@
 </head>
 <body class="home-page">
    <header>
-        <img class="agency-logo" src="images/logos/logo-agency-1.svg" alt="SquareUp agency logo">
+        <img class="agency-logo agency-logo--header" src="images/logos/logo-agency-1.svg" alt="SquareUp agency logo">
 
-        <nav class="nav-menu" aria-label="Desktop/tablet menu navigation links to site pages">
+        <nav class="navbar navbar--main" aria-label="Desktop/tablet menu navigation links to site pages">
             <ul>
-                <li><a href="#" class="nav-link" aria-current="page">Home</a></li>
-                <li><a href="./services.html" class="nav-link">Services</a></li>
-                <li><a href="./works.html" class="nav-link">Work</a></li>
-                <li><a href="./process.html" class="nav-link">Process</a></li>
-                <li><a href="./about.html" class="nav-link">About</a></li>
-                <li><a href="./careers.html" class="nav-link">Careers</a></li>
-                <li><a href="#contact-form" class="cta-btn">Contact Us</a></li>
+                <li><a href="#" class="navbar__link" aria-current="page">Home</a></li>
+                <li><a href="./services.html" class="navbar__link">Services</a></li>
+                <li><a href="./works.html" class="navbar__link">Work</a></li>
+                <li><a href="./process.html" class="navbar__link">Process</a></li>
+                <li><a href="./about.html" class="navbar__link">About</a></li>
+                <li><a href="./careers.html" class="navbar__link">Careers</a></li>
+                <li><a href="#contact-form" class="btn btn--cta">Contact Us</a></li>
             </ul>
         </nav>
 
-        <button type="button" class="open-mobile-menu" aria-label="Open menu mobile" aria-controls="mobile-menu" aria-expanded="false"></button>
+        <button type="button" class="header__hamburger" aria-label="Open menu mobile" aria-controls="drawer" aria-expanded="false"></button>
 
-        <div class="mobile-menu" role="dialog" aria-modal="true" aria-label="Mobile navigation menu" hidden>
-            <div class="mobile-menu-overlay"></div>
+        <div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Mobile navigation menu" hidden>
+            <div class="drawer__overlay"></div>
             
-            <div class="mobile-menu-panel">
-                <div class="mobile-menu-top">
-                    <img class="agency-logo" src="images/logos/logo-agency-1.svg" alt="SquareUp agency logo">
-                    <button type="button" class="close-mobile-menu" aria-label="Close menu mobile"></button>
+            <div class="drawer__content">
+                <div class="drawer__panel-top">
+                    <img class="agency-logo agency-logo--drawer" src="images/logos/logo-agency-1.svg" alt="SquareUp agency logo">
+                    <button type="button" class="drawer__close-btn" aria-label="Close menu mobile"></button>
                 </div>
-                <nav class="nav-menu-mobile" aria-label="Mobile menu navigation links to site pages">
+                <nav class="navbar navbar--mobile" aria-label="Mobile menu navigation links to site pages">
                     <ul>
-                        <li><a href="#" class="nav-link" aria-current="page">Home</a></li>
-                        <li><a href="./services.html" class="nav-link">Services</a></li>
-                        <li><a href="./works.html" class="nav-link">Work</a></li>
-                        <li><a href="./process.html" class="nav-link">Process</a></li>
-                        <li><a href="./about.html" class="nav-link">About</a></li>
-                        <li><a href="./careers.html" class="nav-link">Careers</a></li>
-                        <li><a href="#contact-form" class="cta-btn">Contact Us</a></li>
+                        <li><a href="#" class="navbar__link" aria-current="page">Home</a></li>
+                        <li><a href="./services.html" class="navbar__link">Services</a></li>
+                        <li><a href="./works.html" class="navbar__link">Work</a></li>
+                        <li><a href="./process.html" class="navbar__link">Process</a></li>
+                        <li><a href="./about.html" class="navbar__link">About</a></li>
+                        <li><a href="./careers.html" class="navbar__link">Careers</a></li>
+                        <li><a href="#contact-form" class="btn btn--cta">Contact Us</a></li>
                     </ul>
                 </nav>
             </div>
