@@ -353,53 +353,68 @@
    </main>
 
    <footer>
-        <div class="footer-top">
-            <img class="agency-logo" src="images/logos/logo-agency-1.svg" alt="SquareUp agency logo">
+        <div class="footer__top">
+            <img class="agency-logo agency-logo--footer" src="images/logos/logo-agency-1.svg" alt="SquareUp agency logo">
 
-            <nav class="footer-nav-menu" aria-label="Footer navigation links to site pages">
-                <ul>
-                    <li><a href="#" class="footer-link" aria-current="page">Home</a></li>
-                    <li><a href="./services.html" class="footer-link">Services</a></li>
-                    <li><a href="./works.html" class="footer-link">Work</a></li>
-                    <li><a href="./process.html" class="footer-link">Process</a></li>
-                    <li><a href="./about.html" class="footer-link">About</a></li>
-                    <li><a href="./careers.html" class="footer-link">Careers</a></li>
-                    <li><a href="./contact.html" class="footer-link">Contact</a></li>
+            <nav class="navbar navbar--footer" aria-label="Footer navigation links to site pages">
+                <ul class="navbar__list">
+                    <li class="navbar__item"><a href="#" class="navbar__link" aria-current="page">Home</a></li>
+                    <li class="navbar__item"><a href="./services.html" class="navbar__link">Services</a></li>
+                    <li class="navbar__item"><a href="./works.html" class="navbar__link">Work</a></li>
+                    <li class="navbar__item"><a href="./process.html" class="navbar__link">Process</a></li>
+                    <li class="navbar__item"><a href="./about.html" class="navbar__link">About</a></li>
+                    <li class="navbar__item"><a href="./careers.html" class="navbar__link">Careers</a></li>
+                    <li class="navbar__item"><a href="./contact.html" class="navbar__link">Contact</a></li>
                 </ul>
             </nav>
 
-            <div class="footer-social" role="region" aria-labelledby="social-title">
-                <p class="stay-connected" id="social-title">Stay Connected</p>
-                <ul>
-                    <li><a href="#" class="social-link" aria-label="Facebook">
-                        <div class="icon-wrapper">
-                            <img src="images/icons/facebook.svg" alt="" aria-hidden="true">
+            <div class="social-links" role="region" aria-labelledby="stay-connected">
+                <p class="social-links__title" id="stay-connected">Stay Connected</p>
+                <ul class="social-links__list">
+                    <li class="social-links__item"><a href="#" class="social-links__link" aria-label="Facebook">
+                        <div class="icon-wrapper icon-wrapper--social">
+                            <img class="icon-wrapper__icon" src="images/icons/facebook.svg" alt="" aria-hidden="true">
                         </div>
                     </a></li>
-                    <li><a href="#" class="social-link" aria-label="Twitter">
-                        <div class="icon-wrapper">
-                            <img src="images/icons/twitter.svg" alt="" aria-hidden="true">
+                    <li class="social-links__item"><a href="#" class="social-links__link" aria-label="Twitter">
+                        <div class="icon-wrapper icon-wrapper--social">
+                            <img class="icon-wrapper__icon" src="images/icons/twitter.svg" alt="" aria-hidden="true">
                         </div>
                     </a></li>
-                    <li><a href="#" class="social-link" aria-label="LinkedIn">
-                        <div class="icon-wrapper">
-                            <img src="images/icons/linkedIn.svg" alt="" aria-hidden="true">
+                    <li class="social-links__item"><a href="#" class="social-links__link" aria-label="LinkedIn">
+                        <div class="icon-wrapper icon-wrapper--social">
+                            <img class="icon-wrapper__icon" src="images/icons/linkedIn.svg" alt="" aria-hidden="true">
                         </div>
                     </a></li>
                 </ul>
             </div>
         </div>
 
-        <div class="footer-bottom">
-            <address class="footer-contact" aria-label="Contact information">
-                <ul>
-                    <li class="contact-item"><a href="#" aria-label="Email: contact@squareup.com"><img src="images/icons/email.svg" alt="" aria-hidden="true"><span aria-hidden="true">contact@squareup.com</span></a></li>
-                    <li class="contact-item"><a href="#" aria-label="Telephone: +55 11 99999-8888"><img src="images/icons/telephone.svg" alt="" aria-hidden="true"><span aria-hidden="true">+55 11 99999-8888</span></a></li>
-                    <li class="contact-item"><a href="#" aria-label="Location: Somewhere in the World"><img src="images/icons/location.svg" alt="" aria-hidden="true"><span aria-hidden="true">Somewhere in the World</span></a></li>
+        <div class="footer__bottom">
+            <address class="contact-links" aria-label="Contact information">
+                <ul class="contact-links__list">
+                    <li class="contact-links__item">
+                        <a href="#" class="contact-links__link" aria-label="Email: contact@squareup.com">
+                            <div class="icon-wrapper icon-wrapper--contact"><img class="icon-wrapper__icon" src="images/icons/email.svg" alt="" aria-hidden="true"></div>
+                            <span aria-hidden="true">contact@squareup.com</span>
+                        </a>
+                    </li>
+                    <li class="contact-links__item">
+                        <a href="#" class="contact-links__link" aria-label="Telephone: +55 11 99999-8888">
+                            <div class="icon-wrapper icon-wrapper--contact"><img class="icon-wrapper__icon" src="images/icons/telephone.svg" alt="" aria-hidden="true"></div>
+                            <span aria-hidden="true">+55 11 99999-8888</span>
+                        </a>
+                    </li>
+                    <li class="contact-links__item">
+                        <a href="#" class="contact-links__link" aria-label="Location: Somewhere in the World">
+                            <div class="icon-wrapper icon-wrapper--contact"><img class="icon-wrapper__icon" src="images/icons/location.svg" alt="" aria-hidden="true"></div>
+                            <span aria-hidden="true">Somewhere in the World</span>
+                        </a>
+                    </li>
                 </ul>
             </address>
 
-            <p class="footer-copy">© 2025 SquareUp. All rights reserved.</p>
+            <p class="footer__copy">© 2025 SquareUp. All rights reserved.</p>
         </div>
    </footer>
 </body>
