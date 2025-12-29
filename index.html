@@ -323,31 +323,31 @@
             </ul>
         </section>
 
-        <section class="contact-form-section" aria-labelledby="contact-form-title">
-            <div class="contact-form-intro">
-                <img class="abstract-agency-logo" src="images/logos/logo-agency-2.svg" alt="Abstract agency logo">
-                <h2 class="contact-form-title" id="contact-form-title">Thank you for your Interest in SquareUp.</h2>
-                <p>We would love to hear from you and discuss how we can help bring your digital ideas to life. Here are the different ways you can get in touch with us.</p>
-                <a href="./contact.html" class="cta-btn">Start Project</a>
+        <section class="contact" aria-labelledby="contact-form-title">
+            <div class="contact__intro">
+                <img class="agency-logo agency-logo--contact" src="images/logos/logo-agency-2.svg" alt="Abstract agency logo">
+                <h2 class="contact__title" id="contact-form-title">Thank you for your Interest in SquareUp.</h2>
+                <p class="contact__text">We would love to hear from you and discuss how we can help bring your digital ideas to life. Here are the different ways you can get in touch with us.</p>
+                <a href="./contact.html" class="btn btn--cta">Start Project</a>
             </div>
 
             <form class="contact-form" onsubmit="return false;">
-                <div class="input-container">
-                    <div class="name-input">
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name" placeholder="Your Name" required>
+                <div class="contact-form__container">
+                    <div class="contact-form__field">
+                        <label class="contact-form__label" for="name">Name</label>
+                        <input class="contact-form__input" type="text" name="name" id="name" placeholder="Your Name" required>
                     </div>
-                    <div class="email-input">
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email" placeholder="Your Email" required>
+                    <div class="contact-form__field">
+                        <label class="contact-form__label" for="email">Email</label>
+                        <input class="contact-form__input" type="email" name="email" id="email" placeholder="Your Email" required>
                     </div>
-                    <div class="message-input">
-                        <label for="message">Your Message</label>
-                        <textarea name="message" id="message" placeholder="Type Here" rows="4" required></textarea>
+                    <div class="contact-form__field">
+                        <label class="contact-form__label" for="message">Your Message</label>
+                        <textarea class="contact-form__input" name="message" id="message" placeholder="Type Here" rows="4" required></textarea>
                     </div>
                 </div>
 
-                <button type="submit" class="cta-btn" aria-label="Submit contact form">Submit</button>
+                <button type="submit" class="btn btn--cta">Submit</button>
             </form>
         </section>
    </main>
