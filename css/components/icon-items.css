@@ -1,0 +1,47 @@
+.icon-wrapper span:only-child {
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+}
+
+.icon-wrapper--hamburguer, .icon-wrapper--close-drawer {
+    border-radius: var(--radius-md);
+    transition: background-color .5s ease;
+}
+
+.icon-wrapper--hamburguer span:only-child {
+    display: inline-block;
+    width: var(--space-8);
+    height: var(--space-8);
+    margin-top: var(--space-2);
+    margin-bottom: var(--space-1);
+    margin-inline: var(--space-2);
+    background-color: var(--color-white); 
+    transition: background-color .5s ease;
+    mask-image: url('../../images/icons/menu-bar.svg');
+    -webkit-mask-image: url('../../images/icons/menu-bar.svg');
+}
+
+.icon-wrapper--hamburguer:hover, .icon-wrapper--close-drawer:hover {
+    background-color: var(--bg-accent-secondary-1);
+}
+
+.icon-wrapper--hamburguer:hover span:only-child {
+    background-color: var(--bg-accent-primary-1);
+}
+
+.icon-wrapper--close-drawer span:only-child {
+    display: inline-block;
+    width: var(--space-8);
+    height: var(--space-8);
+    margin-top: var(--space-2);
+    margin-bottom: var(--space-1);
+    margin-inline: var(--space-2);
+    background-color: var(--color-white); 
+    transition: background-color .5s ease;
+    mask-image: url('../../images/icons/x-mark.svg');
+    -webkit-mask-image: url('../../images/icons/x-mark.svg');
+}
