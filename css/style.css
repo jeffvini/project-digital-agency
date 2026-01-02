@@ -1,14 +1,14 @@
 /* Globals */
 @import url('base/reset.css');
+@import url('base/layout.css');
 @import url('base/typography.css');
 @import url('base/variables.css');
 
 /* Components */
-@import url('components/header.css');
 @import url('components/hero.css');
 @import url('components/faq.css');
-@import url('components/footer.css');
 @import url('components/contact-form.css');
+@import url('components/drawer.css');
 @import url('components/navbar.css');
 @import url('components/contact-links.css');
 @import url('components/social-links.css');
