@@ -114,7 +114,8 @@
     --color-background-accent-green-2:   var(--color-green-400);
     --color-background-accent-grey-1:    var(--color-grey-800);
     --color-background-accent-grey-2:    var(--color-grey-700);
-    --color-background-accent-grey-3:    var(--color-grey-600);
+
+    --color-border-accent-grey:    var(--color-grey-600);
 
     /* Interactive States */
     --color-background-hover-grey-1:  var(--color-grey-700);
