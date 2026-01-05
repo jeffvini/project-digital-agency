@@ -1,5 +1,9 @@
 .drawer {
-    display: flex;
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transform: translateX(100%);
     justify-content: flex-end;
     width: 100%;
     height: 100dvh;
