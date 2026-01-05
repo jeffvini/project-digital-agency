@@ -1,3 +1,21 @@
 export function initDrawer() {
+    const drawer = document.querySelector(".js-drawer");
+    const openMenu = document.querySelector(".js-open-menu");
+    const closeMenu = document.querySelector(".js-close-menu");
 
+    if (!drawer || !openMenu || !closeMenu) return;
+
+    openMenu.addEventListener("click", () => {
+
+    });
+
+    closeMenu.addEventListener("click", () => {
+
+    });
+
+    drawer.addEventListener("click", (e) => {
+        if (e.target === drawer) {
+
+        }
+    });
 }
