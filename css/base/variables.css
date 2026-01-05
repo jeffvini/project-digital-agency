@@ -152,10 +152,8 @@
     /* Constraints */
     --width-container-max: 80rem; /* 1280px */
     
-    /* Gutter (Safe zones for Mobile -> Tablet -> Desktop) */
-    --space-container-gutter-ms: var(--space-4);  /* 16px */
-    --space-container-gutter-md: var(--space-20);  /* 80px */
-    --space-container-gutter-lg: var(--space-40); /* 160px */  
+    /* Gutter */
+    --space-container-gutter: var(--space-4);  /* 16px */
 
     /* --- ELEVATION: Z-index layers --- */
     --layer-z-hide:      -1;
@@ -172,6 +170,9 @@
         --font-size-title-lg:     var(--font-size-8xl);  /* 42px */
         --font-size-title-md:     var(--font-size-7xl);  /* 38px */
         --font-size-title-sm:     var(--font-size-3xl);  /* 24px */
+
+        /* Gutter */
+        --space-container-gutter: var(--space-20);  /* 80px */
     }
 }
 
@@ -184,5 +185,8 @@
         --font-size-title-sm:     var(--font-size-5xl);  /* 30px */
         --font-size-text-lg:      var(--font-size-2xl);  /* 22px */
         --font-size-text-default: var(--font-size-lg);   /* 18px */
+
+        /* Gutter */
+        --space-container-gutter: var(--space-40); /* 160px */  
     }
 }
