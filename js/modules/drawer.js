@@ -9,6 +9,7 @@ export function initDrawer() {
         drawer.classList.add("is-close-drawer");
         drawer.addEventListener("transitionend", () => {
             drawer.close();
+            drawer.classList.remove("is-close-drawer");
             openMenu.setAttribute("aria-expanded", "false");
             openMenu.focus(); 
         }, { once: true });
@@ -16,7 +17,6 @@ export function initDrawer() {
 
     openMenu.addEventListener("click", () => {
         if (!drawer.hasAttribute("open")) {
-            drawer.classList.remove("is-close-drawer");
             openMenu.setAttribute("aria-expanded", "true");
             drawer.showModal();
         }

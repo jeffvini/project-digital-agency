@@ -24,7 +24,7 @@
 }
 
 @starting-style {
-    .drawer[open] {
+    .drawer[open]:not(.is-close-drawer) {
         transform: translateX(100%);
     }
 }
