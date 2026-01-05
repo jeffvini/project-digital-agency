@@ -176,7 +176,7 @@
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
     :root {
         /* Font Size (Desktop) */
         --font-size-display:      var(--font-size-12xl); /* 68px */
