@@ -5,21 +5,31 @@ export function initDrawer() {
 
     if (!drawer || !openMenu || !closeMenu) return;
 
+    const closeWithAnimation = () => {
+        drawer.classList.add("is-close-drawer");
+        drawer.addEventListener("transitionend", () => {
+            drawer.close();
+            openMenu.setAttribute("aria-expanded", "false");
+            openMenu.focus(); 
+        }, { once: true });
+    };
+
     openMenu.addEventListener("click", () => {
         if (!drawer.hasAttribute("open")) {
-            drawer.showModal();
             drawer.classList.remove("is-close-drawer");
             openMenu.setAttribute("aria-expanded", "true");
+            drawer.showModal();
         }
     });
 
-    closeMenu.addEventListener("click", () => {
-
-    });
+    closeMenu.addEventListener("click", closeWithAnimation);
 
     drawer.addEventListener("click", (e) => {
-        if (e.target === drawer) {
+        if (e.target === drawer) closeWithAnimation();
+    });
 
-        }
+    drawer.addEventListener("cancel", (event) => {
+        event.preventDefault();
+        closeWithAnimation();
     });
 }
