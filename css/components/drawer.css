@@ -18,7 +18,7 @@
     transform: translateX(100%);
 }
 
-.drawer[open] {
+.drawer[open]:not(.is-close-drawer) {
     display: flex;
     transform: translateX(0%);
 }
