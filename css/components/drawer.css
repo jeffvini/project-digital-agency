@@ -1,0 +1,33 @@
+.drawer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100dvh;
+    max-width: none;
+    max-height: none;
+    background: none;
+    border: none;
+}
+
+.drawer__content {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-background-primary);
+    width: 85%;
+}
+
+.drawer__panel-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: var(--space-5);
+    padding-top: var(--space-10);
+    padding-bottom: var(--space-4);
+    margin-bottom: var(--space-4);
+    border-bottom: 1px solid var(--color-border-accent-grey);
+}
+
+.drawer::backdrop {
+    background-color: rgba(0, 0, 0, 0.508);
+}
