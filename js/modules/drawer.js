@@ -6,7 +6,11 @@ export function initDrawer() {
     if (!drawer || !openMenu || !closeMenu) return;
 
     openMenu.addEventListener("click", () => {
-
+        if (!drawer.hasAttribute("open")) {
+            drawer.showModal();
+            drawer.classList.remove("is-close-drawer");
+            openMenu.setAttribute("aria-expanded", "true");
+        }
     });
 
     closeMenu.addEventListener("click", () => {
