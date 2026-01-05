@@ -17,9 +17,9 @@
 
 .navbar--mobile .navbar__link[aria-current="page"] {
     color: var(--color-text-accent-white);
-    background-color: var(--color-background-hover-grey-2);
+    background-color: var(--color-background-hover-grey-1);
 }
 
 .navbar--mobile .navbar__link:hover {
-    background-color: var(--color-background-hover-grey-2);
+    background-color: var(--color-background-hover-grey-1);
 }

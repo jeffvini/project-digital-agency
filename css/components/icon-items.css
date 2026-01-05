@@ -22,7 +22,7 @@
 }
 
 .icon-wrapper--hamburguer:hover, .icon-wrapper--close-drawer:hover {
-    background-color: var(--color-background-hover-grey-2);
+    background-color: var(--color-background-hover-grey-1);
 }
 
 .icon-wrapper--hamburguer:hover span:only-child {
