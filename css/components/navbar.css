@@ -63,4 +63,12 @@
     .navbar--main .navbar__list {
         display: flex;
     }
+
+    .navbar--footer .navbar__list {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: var(--space-4);
+        padding-top: 0;
+        border-top: none;
+    }
 }
