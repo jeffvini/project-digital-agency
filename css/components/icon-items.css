@@ -40,7 +40,6 @@
 }
 
 .icon-wrapper--social {
-    justify-content: center;
     width: max-content;
     padding: var(--space-3);
     border-radius: var(--radius-md);
