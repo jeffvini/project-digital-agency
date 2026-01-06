@@ -44,6 +44,11 @@
     justify-content: center;
     border-top: solid 1px var(--color-border-accent-grey);
     padding-top: var(--space-8);
+    transition: color var(--motion-duration-medium) var(--motion-ease);
+}
+
+.navbar--footer .navbar__link:hover {
+    color: var(--color-text-accent-white);
 }
 
 @media (min-width: 1024px) {
