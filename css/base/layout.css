@@ -41,6 +41,11 @@ footer .container {
     margin-block: var(--space-8);
 }
 
+.footer__copy {
+    text-align: center;
+    margin-top: var(--space-4);
+}
+
 main {
     flex: 1;
     max-width: var(--width-container-max);
