@@ -1,0 +1,12 @@
+.contact-links__icon {
+    display: inline-block;
+    margin-right: var(--space-2);
+}
+
+.contact-links__link {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    font-weight: var(--font-weight-body);
+    margin-inline: auto;
+}
