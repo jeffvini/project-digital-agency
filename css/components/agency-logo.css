@@ -2,3 +2,10 @@
     margin-inline: auto;
     margin-bottom: var(--space-8);
 }
+
+@media (min-width: 1024px) {
+    .agency-logo--footer {
+        margin-inline: 0;
+        margin-bottom: 0;
+    }
+}
