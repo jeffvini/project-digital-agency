@@ -44,10 +44,10 @@
     justify-content: center;
     border-top: solid 1px var(--color-border-accent-grey);
     padding-top: var(--space-8);
-    transition: color var(--motion-duration-medium) var(--motion-ease);
 }
 
 .navbar--footer .navbar__link {
+    transition: color var(--motion-duration-medium) var(--motion-ease);
     font-weight: var(--font-weight-body);
 }
 
