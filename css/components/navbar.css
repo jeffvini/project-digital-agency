@@ -37,6 +37,15 @@
     background-color: var(--color-background-hover-grey-1);
 }
 
+.navbar--footer .navbar__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-4);
+    justify-content: center;
+    border-top: solid 1px var(--color-border-accent-grey);
+    padding-top: var(--space-8);
+}
+
 @media (min-width: 1024px) {
     .navbar--main {
         display: flex;
