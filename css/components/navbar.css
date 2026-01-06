@@ -28,4 +28,8 @@
     .navbar--main {
         display: flex;
     }
+
+    .navbar--main .navbar__list {
+        display: flex;
+    }
 }
