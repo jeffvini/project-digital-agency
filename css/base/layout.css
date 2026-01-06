@@ -82,4 +82,10 @@ main > section:last-child {
         border-bottom: solid 1px var(--color-border-accent-grey);
         padding-bottom: var(--space-8);
     }
+
+    .footer__bottom {
+        display: flex;
+        justify-content: space-between;
+        margin-top: var(--space-6);
+    }
 }
