@@ -23,3 +23,9 @@
 .navbar--mobile .navbar__link:hover {
     background-color: var(--color-background-hover-grey-1);
 }
+
+@media (min-width: 768px) {
+    .navbar--main {
+        display: flex;
+    }
+}
