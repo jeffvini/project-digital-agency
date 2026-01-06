@@ -18,7 +18,7 @@
 .navbar--mobile .navbar__link, .navbar--main .navbar__link {
     display: flex;
     border-radius: var(--radius-sm);
-    transition: background-color var(--motion-duration-medium) var(--motion-ease);
+    transition: background-color var(--motion-duration-medium) var(--motion-ease), color var(--motion-duration-medium) var(--motion-ease);
 }
 
 .navbar--mobile .navbar__link {
@@ -33,6 +33,7 @@
 }
 
 .navbar--mobile .navbar__link:hover, .navbar--main .navbar__link:hover {
+    color: var(--color-text-accent-white);
     background-color: var(--color-background-hover-grey-1);
 }
 
