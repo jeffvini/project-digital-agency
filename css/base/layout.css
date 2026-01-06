@@ -29,6 +29,10 @@ header .container {
     margin-block: var(--space-10) var(--space-6);
 }
 
+header .btn--cta {
+    display: none;
+}
+
 footer .container {
     flex-direction: column;
     margin-block: var(--space-8);
@@ -53,5 +57,9 @@ main > section:last-child {
 @media (min-width: 768px) {
     .header__hamburger {
         display: none;
+    }
+
+    header .btn--cta {
+        display: flex;
     }
 }
