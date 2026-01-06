@@ -1,0 +1,20 @@
+.btn--cta {
+    color: var(--color-text-accent-black);
+    background-color: var(--color-background-accent-green-1);
+    transition: color var(--motion-duration-medium) var(--motion-ease), background-color var(--motion-duration-medium) var(--motion-ease);
+    padding-block: var(--space-3);
+    padding-inline: var(--space-5);
+    border-radius: var(--radius-md);
+}
+
+.btn--cta:hover {
+    color: var(--color-text-accent-green-1);
+    background-color: var(--color-background-hover-grey-1);
+}
+
+.drawer .btn--cta {
+    display: block;
+    padding-block: var(--space-2);
+    margin-top: var(--space-6);
+    text-align: center;
+}

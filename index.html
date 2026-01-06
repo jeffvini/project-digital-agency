@@ -25,17 +25,17 @@
                         <li class="navbar__item"><a href="#contact-form" class="btn btn--cta">Contact Us</a></li>
                     </ul>
                 </nav>
-                <button type="button" class="header__hamburger" aria-label="Open menu mobile" aria-controls="drawer" aria-expanded="false">
+                <button type="button" class="header__hamburger js-open-menu" aria-label="Open menu mobile" aria-controls="drawer" aria-expanded="false">
                     <div class="icon-wrapper icon-wrapper--hamburguer"><span class="icon-wrapper__icon"></span></div>
                 </button>  
-                <dialog class="drawer" id="drawer" aria-label="Mobile navigation menu">
+                <dialog class="drawer js-drawer" id="drawer" aria-label="Mobile navigation menu">
                     <div class="drawer__content">
                         <div class="drawer__panel-top">
                             <picture class="drawer__image-wrapper">
                                 <source media="(min-width: 1280px)" srcset="images/logos/logo-agency-lg.svg">
                                 <img class="agency-logo agency-logo--drawer" src="images/logos/logo-agency-sm.svg" alt="SquareUp agency logo" loading="lazy">
                              </picture>
-                            <button type="button" class="drawer__close-btn" aria-label="Close menu mobile">
+                            <button type="button" class="drawer__close-btn js-close-menu" aria-label="Close menu mobile">
                                 <div class="icon-wrapper icon-wrapper--close-drawer"><span class="icon-wrapper__icon"></span></div>
                             </button>
                         </div>
@@ -405,5 +405,7 @@
             </div>
        </footer>
    </div>
+
+   <script type="module" src="./js/main.js"></script>
 </body>
 </html>
