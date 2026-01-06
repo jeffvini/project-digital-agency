@@ -114,6 +114,7 @@
     --color-background-accent-green-2:   var(--color-green-400);
     --color-background-accent-grey-1:    var(--color-grey-800);
     --color-background-accent-grey-2:    var(--color-grey-700);
+    --color-background-icon-wrapper:     linear-gradient(rgb(0, 70, 0), var(--color-background-accent-grey-1));
 
     --color-border-accent-grey:    var(--color-grey-600);
 

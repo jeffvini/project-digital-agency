@@ -38,3 +38,11 @@
     mask-image: url('../../images/icons/x-mark.svg');
     -webkit-mask-image: url('../../images/icons/x-mark.svg');
 }
+
+.icon-wrapper--social {
+    justify-content: center;
+    width: max-content;
+    padding: var(--space-3);
+    border-radius: var(--radius-md);
+    background: var(--color-background-icon-wrapper);
+}
