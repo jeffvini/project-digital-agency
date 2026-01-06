@@ -47,6 +47,10 @@
     transition: color var(--motion-duration-medium) var(--motion-ease);
 }
 
+.navbar--footer .navbar__link {
+    font-weight: var(--font-weight-body);
+}
+
 .navbar--footer .navbar__link:hover {
     color: var(--color-text-accent-white);
 }
