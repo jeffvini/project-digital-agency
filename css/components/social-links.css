@@ -1,0 +1,10 @@
+.social-links__list {
+    display: flex;
+    gap: var(--space-2);
+    margin-top: var(--space-3);
+}
+
+.social-links__link {
+    display: block;
+    width: max-content;
+}
