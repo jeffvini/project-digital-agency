@@ -19,3 +19,15 @@
     font-weight: var(--font-weight-body);
     margin-inline: auto;
 }
+
+@media (min-width: 1024px) {
+    .contact-links__list {
+        display: flex;
+        gap: var(--space-5);
+        margin-top: 0;
+    }
+
+    .contact-links__item {
+        padding-bottom: var(--space-4);
+    }
+}
