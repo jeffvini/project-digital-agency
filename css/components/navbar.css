@@ -37,6 +37,24 @@
     background-color: var(--color-background-hover-grey-1);
 }
 
+.navbar--footer .navbar__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-4);
+    justify-content: center;
+    border-top: solid 1px var(--color-border-accent-grey);
+    padding-top: var(--space-8);
+}
+
+.navbar--footer .navbar__link {
+    transition: color var(--motion-duration-medium) var(--motion-ease);
+    font-weight: var(--font-weight-body);
+}
+
+.navbar--footer .navbar__link:hover {
+    color: var(--color-text-accent-white);
+}
+
 @media (min-width: 1024px) {
     .navbar--main {
         display: flex;
@@ -44,5 +62,13 @@
 
     .navbar--main .navbar__list {
         display: flex;
+    }
+
+    .navbar--footer .navbar__list {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: var(--space-4);
+        padding-top: 0;
+        border-top: none;
     }
 }

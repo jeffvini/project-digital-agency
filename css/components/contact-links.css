@@ -1,0 +1,33 @@
+.contact-links__list {
+    margin-top: var(--space-6);
+}
+
+.contact-links__item {
+    border-bottom: solid 1px var(--color-border-accent-grey);
+    padding-block: var(--space-4);
+}
+
+.contact-links__icon {
+    display: inline-block;
+    margin-right: var(--space-2);
+}
+
+.contact-links__link {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    font-weight: var(--font-weight-body);
+    margin-inline: auto;
+}
+
+@media (min-width: 1024px) {
+    .contact-links__list {
+        display: flex;
+        gap: var(--space-5);
+        margin-top: 0;
+    }
+
+    .contact-links__item {
+        padding-bottom: var(--space-4);
+    }
+}

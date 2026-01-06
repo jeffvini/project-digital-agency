@@ -41,6 +41,12 @@ footer .container {
     margin-block: var(--space-8);
 }
 
+.footer__copy {
+    color: var(--color-grey-200);
+    text-align: center;
+    margin-top: var(--space-4);
+}
+
 main {
     flex: 1;
     max-width: var(--width-container-max);
@@ -68,5 +74,19 @@ main > section:last-child {
 
     header .btn--cta {
         display: flex;
+    }
+
+    .footer__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: solid 1px var(--color-border-accent-grey);
+        padding-bottom: var(--space-8);
+    }
+
+    .footer__bottom {
+        display: flex;
+        justify-content: space-between;
+        margin-top: var(--space-6);
     }
 }
