@@ -49,5 +49,5 @@
 }
 
 .drawer::backdrop {
-    background-color: rgba(0, 0, 0, 0.508);
+    background-color: var(--color-background-overlay);
 }
