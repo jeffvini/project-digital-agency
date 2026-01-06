@@ -79,5 +79,7 @@ main > section:last-child {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        border-bottom: solid 1px var(--color-border-accent-grey);
+        padding-bottom: var(--space-8);
     }
 }
