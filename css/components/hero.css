@@ -28,6 +28,7 @@
 
 .home-page .hero__audience-text {
     color: var(--color-grey-200);
+    background-color: var(--color-background-primary);
     border: solid 1px var(--color-border-accent-grey);
     border-radius: var(--radius-md);
     font-size: var(--font-size-text-lg);
