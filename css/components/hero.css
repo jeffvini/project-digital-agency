@@ -4,3 +4,10 @@
     align-items: center;
     text-align: center;
 }
+
+.home-page .hero__display {
+    font-weight: var(--font-weight-title);
+    font-size: var(--font-size-display);
+    line-height: var(--line-height-tight);
+    margin-block: var(--space-20) var(--space-8);
+}
