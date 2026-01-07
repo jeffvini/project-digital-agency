@@ -1,0 +1,18 @@
+.btn--secondary {
+    display: block;
+    border-radius: var(--radius-md);
+    color: var(--color-text-accent-white);
+    background-color: var(--color-background-accent-grey-2);
+    transition: background-color var(--motion-duration-medium) var(--motion-ease);
+    padding-block: var(--space-3);
+    padding-inline: var(--space-5);
+}
+
+.home-page .hero .btn--secondary {
+    border: solid 1px var(--color-border-accent-grey);
+    background-color: var(--color-background-accent-grey-1);
+}
+
+.home-page .hero .btn--secondary:hover {
+    background-color: var(--color-background-hover-grey-1);
+}
