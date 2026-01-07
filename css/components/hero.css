@@ -11,3 +11,17 @@
     line-height: var(--line-height-tight);
     margin-block: var(--space-20) var(--space-8);
 }
+
+.home-page .hero__audience-text {
+    color: var(--color-grey-200);
+    border: solid 1px var(--color-border-accent-grey);
+    border-radius: var(--radius-md);
+    font-size: var(--font-size-text-lg);
+    padding: var(--space-6);
+    margin-inline: var(--space-3);
+    margin-bottom: var(--space-12);
+}
+
+.home-page .hero__audience-item {
+    margin-bottom: var(--space-2);
+}
