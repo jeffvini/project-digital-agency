@@ -1,0 +1,70 @@
+.home-page .hero {
+    position: relative;
+    z-index: var(--layer-z-base);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.home-page .hero::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image: url('../../images/background-digital-mountain.webp');
+    background-repeat: no-repeat;
+    background-size: 250%;
+    background-position: center bottom;
+    opacity: 0.4; 
+    z-index: var(--layer-z-hide);
+}
+
+.home-page .hero__display {
+    font-weight: var(--font-weight-title);
+    font-size: var(--font-size-display);
+    line-height: var(--line-height-tight);
+    margin-block: var(--space-20) var(--space-8);
+    margin-inline: var(--space-4);
+}
+
+.home-page .hero__audience-text {
+    color: var(--color-grey-200);
+    background-color: var(--color-background-primary);
+    border: solid 1px var(--color-border-accent-grey);
+    border-radius: var(--radius-md);
+    font-size: var(--font-size-text-lg);
+    padding: var(--space-6);
+    margin-inline: var(--space-4);
+    margin-bottom: var(--space-12);
+}
+
+.home-page .hero__actions {
+    display: flex;
+    gap: var(--space-4);
+    margin-bottom: calc(var(--space-40) * 1.25);
+}
+
+@media (min-width: 768px) {
+    .home-page .hero::before {
+        background-size: 150%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .home-page .hero__audience-item {
+        color: var(--color-text-accent-white);
+        background-color: var(--color-background-accent-grey-2);
+        border-radius: var(--radius-md);
+        padding-block: var(--space-2);
+        padding-inline: var(--space-3);
+        margin-right: var(--space-1);
+    }
+
+    .home-page .hero::before {
+        background-size: 120%;
+    }
+
+    .home-page .hero__display {
+        margin-top: calc(var(--space-20) * 1.4);
+    }
+}
