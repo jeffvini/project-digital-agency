@@ -27,3 +27,7 @@
     margin-bottom: var(--space-6);
     gap: var(--space-8);
 }
+
+.home-page .trusted-companies__logo {
+    filter: brightness(10);
+}
