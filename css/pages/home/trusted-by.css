@@ -1,0 +1,19 @@
+.home-page .trusted-companies {
+    position: relative;
+}
+
+.home-page .trusted-companies__label {
+   position: absolute;
+   top: calc(var(--space-3) * -1);
+   left: 50%;
+   transform: translateX(-50%);
+   z-index: var(--layer-z-base);
+   white-space: nowrap;
+}
+
+.home-page .trusted-companies__highlight {
+    border: solid 1px var(--color-border-accent-grey);
+    border-radius: var(--radius-full);
+    background-color: var(--color-background-accent-grey-1);
+    padding: var(--space-4);
+}
