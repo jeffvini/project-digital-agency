@@ -24,6 +24,7 @@
     font-size: var(--font-size-display);
     line-height: var(--line-height-tight);
     margin-block: var(--space-20) var(--space-8);
+    margin-inline: var(--space-4);
 }
 
 .home-page .hero__audience-text {
@@ -33,7 +34,7 @@
     border-radius: var(--radius-md);
     font-size: var(--font-size-text-lg);
     padding: var(--space-6);
-    margin-inline: var(--space-3);
+    margin-inline: var(--space-4);
     margin-bottom: var(--space-12);
 }
 
