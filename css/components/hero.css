@@ -14,7 +14,7 @@
     background-image: url('../../images/background-digital-mountain.webp');
     background-repeat: no-repeat;
     background-size: 250%;
-    background-position:  center bottom;
+    background-position: center bottom;
     opacity: 0.4; 
     z-index: var(--layer-z-hide);
 }
