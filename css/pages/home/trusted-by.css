@@ -1,0 +1,34 @@
+.home-page .trusted-companies {
+    position: relative;
+}
+
+.home-page .trusted-companies__label {
+   color: var(--color-text-accent-white);
+   position: absolute;
+   top: calc(var(--space-3) * -1);
+   left: 50%;
+   transform: translateX(-50%);
+   z-index: var(--layer-z-base);
+   white-space: nowrap;
+}
+
+.home-page .trusted-companies__highlight {
+    border: solid 1px var(--color-border-accent-grey);
+    border-radius: var(--radius-full);
+    background-color: var(--color-background-accent-grey-1);
+    padding: var(--space-4);
+}
+
+.home-page .trusted-companies__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: var(--space-16);
+    margin-inline: var(--space-4);
+    margin-bottom: var(--space-10);
+    gap: var(--space-8);
+}
+
+.home-page .trusted-companies__logo {
+    filter: brightness(10);
+}
