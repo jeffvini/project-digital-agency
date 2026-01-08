@@ -17,3 +17,13 @@
     background-color: var(--color-background-accent-grey-1);
     padding: var(--space-4);
 }
+
+.home-page .trusted-companies__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: var(--space-12);
+    margin-inline: var(--space-4);
+    margin-bottom: var(--space-6);
+    gap: var(--space-8);
+}
