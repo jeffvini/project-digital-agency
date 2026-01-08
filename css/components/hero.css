@@ -66,4 +66,8 @@
     .home-page .hero::before {
         background-size: 120%;
     }
+
+    .home-page .hero__display {
+        margin-top: calc(var(--space-20) * 1.4);
+    }
 }
