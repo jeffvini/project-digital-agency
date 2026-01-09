@@ -1,0 +1,39 @@
+.home-page .our-services__intro {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../../images/banners/banner-digital-wave-1.webp');
+}
+
+.home-page .our-services__header-article {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    margin-bottom: var(--space-5);
+}
+
+.home-page .our-services__subtitle {
+    font-weight: var(--font-weight-title);
+    font-size: var(--font-size-title-sm);
+    line-height: var(--line-height-heading);
+}
+
+.home-page .our-services__description {
+    margin-bottom: var(--space-8);
+}
+
+.home-page .our-services__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-12);
+    margin: var(--space-8);
+}
+
+.home-page .our-services__item {
+    flex: 1;
+    flex-basis: 390px;
+}
+
+.home-page .our-services__article {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100%;
+}

@@ -55,7 +55,7 @@ p {
 a {
     text-decoration: none;
     color: var(--color-text-secondary);
-    font-weight: var(--font-weight-action)
+    font-weight: var(--font-weight-action);
 }
 
 ul, ol {

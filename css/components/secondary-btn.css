@@ -3,9 +3,14 @@
     border-radius: var(--radius-md);
     color: var(--color-text-accent-white);
     background-color: var(--color-background-accent-grey-2);
+    text-align: center;
     transition: background-color var(--motion-duration-medium) var(--motion-ease);
     padding-block: var(--space-3);
     padding-inline: var(--space-5);
+}
+
+.btn--secondary:hover {
+    background-color: var(--color-background-hover-grey-2);
 }
 
 .home-page .hero .btn--secondary {
@@ -15,4 +20,8 @@
 
 .home-page .hero .btn--secondary:hover {
     background-color: var(--color-background-hover-grey-1);
+}
+
+.home-page .our-services .btn--secondary {
+    margin-top: auto;
 }
