@@ -15,7 +15,7 @@
     background-repeat: no-repeat;
     background-size: 250%;
     background-position: center bottom;
-    opacity: 0.4; 
+    opacity: 0.3; 
     z-index: var(--layer-z-hide);
 }
 
