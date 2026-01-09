@@ -6,6 +6,7 @@
 
 /* Components */
 @import url('components/hero.css');
+@import url('components/main-sections-intro.css');
 @import url('components/faq.css');
 @import url('components/contact-form.css');
 @import url('components/drawer.css');
