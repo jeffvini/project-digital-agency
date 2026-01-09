@@ -8,7 +8,7 @@
     margin-top: var(--space-6);
 }
 
-.social-links__title {
+.social-links__label {
     text-align: center;
     color: var(--color-text-accent-white);
 }
@@ -33,7 +33,7 @@
         margin-top: 0;
     }
 
-    .social-links__title {
+    .social-links__label {
         margin-right: var(--space-2);
     }
 
