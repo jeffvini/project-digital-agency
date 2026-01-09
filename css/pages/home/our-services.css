@@ -2,10 +2,19 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../../images/banners/banner-digital-wave-1.webp');
 }
 
+.home-page .our-services__header-article {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    margin-bottom: var(--space-5);
+}
+
 .home-page .our-services__subtitle {
     font-weight: var(--font-weight-title);
     font-size: var(--font-size-title-sm);
     line-height: var(--line-height-heading);
-    margin-top: var(--space-6);
-    margin-bottom: var(--space-3);
+}
+
+.home-page .our-services__description {
+    margin-bottom: var(--space-8);
 }
