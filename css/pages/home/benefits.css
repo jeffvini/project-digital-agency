@@ -1,3 +1,20 @@
 .home-page .benefits__intro {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../../images/banners/banner-digital-wave-2.webp');
 }
+
+.home-page .benefits__header-article {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    margin-bottom: var(--space-5);
+}
+
+.home-page .benefits__subtitle {
+    font-weight: var(--font-weight-title);
+    font-size: var(--font-size-title-sm);
+    line-height: var(--line-height-heading);
+}
+
+.home-page .benefits__description {
+    margin-bottom: var(--space-8);
+}
