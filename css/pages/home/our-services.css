@@ -5,13 +5,18 @@
 .home-page .our-services__list {
     display: flex;
     flex-wrap: wrap;
-    gap: var(--space-12);
-    margin: var(--space-8);
 }
 
 .home-page .our-services__item {
     flex: 1;
-    flex-basis: 390px;
+    flex-basis: 447px;
+    border-bottom: solid 1px var(--color-border-accent-grey);
+    padding-inline: var(--space-8);
+    padding-block: var(--space-10);
+}
+
+.home-page .our-services__item:last-child {
+    border: none;
 }
 
 .home-page .our-services__article {
@@ -36,4 +41,14 @@
 
 .home-page .our-services__description {
     margin-bottom: var(--space-8);
+}
+
+@media (min-width: 1024px) {
+    .home-page .our-services__item {
+        padding: var(--space-12);
+    }
+
+    .home-page .our-services__item:nth-child(2) {
+        border-left: solid 1px var(--color-border-accent-grey);
+    }
 }
