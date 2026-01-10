@@ -1,0 +1,57 @@
+.home-page .benefits__intro {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../../images/banners/banner-digital-wave-2.webp');
+}
+
+.home-page .benefits__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home-page .benefits__item {
+    flex: 1;
+    flex-basis: 447px;
+    border-bottom: solid 1px var(--color-border-accent-grey);
+    padding-inline: var(--space-8);
+    padding-block: var(--space-10);
+}
+
+.home-page .benefits__item:last-child {
+    border: none;
+}
+
+.home-page .benefits__article {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100%;
+}
+
+.home-page .benefits__header-article {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    margin-bottom: var(--space-5);
+}
+
+.home-page .benefits__subtitle {
+    font-weight: var(--font-weight-title);
+    font-size: var(--font-size-title-sm);
+    line-height: var(--line-height-heading);
+}
+
+@media (min-width: 1024px) {
+    .home-page .benefits__item {
+        padding: var(--space-12);
+    }
+    .home-page .benefits__item:nth-child(2) {
+        border-left: solid 1px var(--color-border-accent-grey);
+    }
+
+    .home-page .benefits__item:nth-child(3) {
+        border: none;
+    }
+
+    .home-page .benefits__item:last-child {
+        border-left: solid 1px var(--color-border-accent-grey);
+    }
+}

@@ -1,5 +1,6 @@
-.home-page .our-services__intro {
+.home-page .our-services__intro, .home-page .benefits__intro {
     text-align: center;
+    border-bottom: solid 1px var(--color-border-accent-grey);
     padding-block: var(--space-12);
     padding-inline: var(--space-4);
     background-repeat: no-repeat;
@@ -7,7 +8,7 @@
     background-position: center;
 }
 
-.home-page .our-services__title {
+.home-page .our-services__title, .home-page .benefits__title {
     font-size: var(--font-size-title-md);
     font-weight: var(--font-weight-title);
     line-height: var(--line-height-heading);
@@ -15,7 +16,7 @@
 }
 
 @media (min-width: 1024px) {
-    .home-page .our-services__intro {
+    .home-page .our-services__intro, .home-page .benefits__intro{
         padding-block: var(--space-20);
     }
 }
