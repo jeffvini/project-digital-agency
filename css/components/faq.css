@@ -33,10 +33,6 @@
     line-height: var(--line-height-heading);
 }
 
-.faq__toggle {
-    margin-left: var(--space-5);
-}
-
 .faq__answer {
     margin-top: var(--space-4);
 }
