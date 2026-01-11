@@ -33,6 +33,20 @@
     margin-bottom: var(--space-5);
 }
 
+.home-page .testimonials__quote {
+    flex: 1;
+}
+
+.home-page .testimonials__author-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--space-3);
+    margin-top: var(--space-6);
+    border: solid 1px var(--color-border-accent-grey);
+    border-radius: var(--radius-md);
+}
+
 @media (min-width: 1024px) {
     .home-page .testimonials__item {
         padding: var(--space-12);
