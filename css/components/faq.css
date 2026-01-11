@@ -1,0 +1,77 @@
+.faq__intro {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../../images/banners/banner-digital-wave-4.webp');
+}
+
+.faq__list {
+    column-count: 1; 
+    column-gap: 0;
+    column-rule: none;
+}
+
+.faq__item {
+    display: inline-block;
+    break-inside: avoid; 
+    width: 100%;
+    border-bottom: solid 1px var(--color-border-accent-grey);
+    padding-inline: var(--space-8);
+    padding-block: var(--space-10);
+}
+
+.faq__item:last-child {
+    border: none;
+}
+
+.faq__question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq__question:hover {
+    cursor: pointer;
+}
+
+.faq__subtitle {
+    font-weight: var(--font-weight-title);
+    font-size: var(--font-size-title-sm);
+    line-height: var(--line-height-heading);
+    transition: color var(--motion-duration-fast) var(--motion-ease);
+}
+
+.faq__article details[open] .faq__subtitle {
+    color: var(--color-text-accent-green-1);
+}
+
+.faq__answer {
+    margin-top: var(--space-4);
+}
+
+@media (min-width: 1024px) {
+    .faq__list {
+        column-count: 2; 
+        column-rule: solid 1px var(--color-border-accent-grey);
+    }
+
+    .faq__item {
+        padding: var(--space-12);
+    }
+
+    .faq__item:first-child {
+        border-top: solid 1px var(--color-border-accent-grey);
+        margin-top: var(--space-12);
+    }
+
+    .faq__item:nth-child(2) {
+        margin-bottom: var(--space-12);
+    }
+
+     .faq__item:nth-child(3) {
+        border-top: solid 1px var(--color-border-accent-grey);
+        margin-top: var(--space-12);
+    }
+
+    .faq__item:last-child {
+        border-bottom: solid 1px var(--color-border-accent-grey);
+        margin-bottom: var(--space-12);
+    }
+}

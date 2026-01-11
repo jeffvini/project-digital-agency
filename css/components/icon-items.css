@@ -39,6 +39,25 @@
     -webkit-mask-image: url('../../images/icons/x-mark.svg');
 }
 
+.icon-wrapper--open-faq {
+    padding: var(--space-1);
+    margin-left: var(--space-5);
+}
+
+.icon-wrapper--open-faq span:only-child {
+    display: block;
+    background-color: var(--color-white);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), color var(--motion-duration-fast) var(--motion-ease);
+    padding: var(--space-4);
+    mask-image: url('../../images/icons/plus.svg');
+    -webkit-mask-image: url('../../images/icons/plus.svg'); 
+}
+
+.faq__article details[open] .icon-wrapper__icon {
+    background-color: var(--color-background-accent-green-1);
+    transform: rotate(45deg);
+}
+
 .icon-wrapper--social, .icon-wrapper--services, .icon-wrapper--benefits {
     width: max-content;
     padding: var(--space-3);
