@@ -21,6 +21,22 @@
     border: none;
 }
 
+.faq__question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq__subtitle {
+    font-weight: var(--font-weight-title);
+    font-size: var(--font-size-title-sm);
+    line-height: var(--line-height-heading);
+}
+
+.faq__toggle {
+    margin-left: var(--space-5);
+}
+
 @media (min-width: 1024px) {
     .faq__list {
         column-count: 2; 
