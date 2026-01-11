@@ -39,6 +39,18 @@
     -webkit-mask-image: url('../../images/icons/x-mark.svg');
 }
 
+.icon-wrapper--open-faq {
+    padding: var(--space-1);
+}
+
+.icon-wrapper--open-faq span:only-child {
+    display: block;
+    background-color: var(--color-white);
+    padding: var(--space-4);
+    mask-image: url('../../images/icons/plus.svg');
+    -webkit-mask-image: url('../../images/icons/plus.svg'); 
+}
+
 .icon-wrapper--social, .icon-wrapper--services, .icon-wrapper--benefits {
     width: max-content;
     padding: var(--space-3);
