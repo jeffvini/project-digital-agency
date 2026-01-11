@@ -47,6 +47,20 @@
     border-radius: var(--radius-md);
 }
 
+.home-page .testimonials__author-details {
+    display: flex;
+}
+
+.home-page .testimonials__author-logo {
+    margin-right: var(--space-3);
+}
+
+.home-page .testimonials__author-name {
+    font-style: normal;
+    font-size: var(--font-size-text-lg);
+    font-weight: var(--font-weight-medium);
+}
+
 @media (min-width: 1024px) {
     .home-page .testimonials__item {
         padding: var(--space-12);
