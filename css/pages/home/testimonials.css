@@ -2,10 +2,55 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../../images/banners/banner-digital-wave-3.webp');
 }
 
+.home-page .testimonials__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home-page .testimonials__item {
+    flex: 1;
+    flex-basis: 447px;
+    border-bottom: solid 1px var(--color-border-accent-grey);
+    padding-inline: var(--space-8);
+    padding-block: var(--space-10);
+}
+
+.home-page .testimonials__item:last-child {
+    border: none;
+}
+
+.home-page .testimonials__article {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 .home-page .testimonials__subtitle {
     color: var(--color-text-accent-green-2);
     font-weight: var(--font-weight-title);
     font-size: var(--font-size-title-sm);
     line-height: var(--line-height-heading);
     margin-bottom: var(--space-5);
+}
+
+@media (min-width: 1024px) {
+    .home-page .testimonials__item {
+        padding: var(--space-12);
+    }
+
+    .home-page .testimonials__item:nth-child(2) {
+        border-left: solid 1px var(--color-border-accent-grey);
+    }
+
+    .home-page .testimonials__item:nth-child(4) {
+        border-left: solid 1px var(--color-border-accent-grey);
+    }
+
+    .home-page .testimonials__item:nth-child(5) {
+        border: none;
+    }
+
+    .home-page .testimonials__item:nth-child(6) {
+        border-left: solid 1px var(--color-border-accent-grey);
+    }
 }
