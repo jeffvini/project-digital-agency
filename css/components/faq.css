@@ -37,6 +37,10 @@
     margin-left: var(--space-5);
 }
 
+.faq__answer {
+    margin-top: var(--space-4);
+}
+
 @media (min-width: 1024px) {
     .faq__list {
         column-count: 2; 
