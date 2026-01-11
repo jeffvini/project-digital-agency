@@ -1,3 +1,11 @@
 .home-page .testimonials__intro {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../../images/banners/banner-digital-wave-3.webp');
 }
+
+.home-page .testimonials__subtitle {
+    color: var(--color-text-accent-green-2);
+    font-weight: var(--font-weight-title);
+    font-size: var(--font-size-title-sm);
+    line-height: var(--line-height-heading);
+    margin-bottom: var(--space-5);
+}
