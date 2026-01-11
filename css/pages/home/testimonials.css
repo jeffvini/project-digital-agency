@@ -61,6 +61,18 @@
     font-weight: var(--font-weight-medium);
 }
 
+.home-page .testimonials .btn--secondary {
+    display: none;
+    white-space: nowrap;
+    margin-left: var(--space-3);
+}
+
+@media (min-width: 768px) {
+    .home-page .testimonials .btn--secondary {
+        display: block;
+    }   
+}
+
 @media (min-width: 1024px) {
     .home-page .testimonials__item {
         padding: var(--space-12);
