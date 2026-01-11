@@ -27,10 +27,19 @@
     justify-content: space-between;
 }
 
+.faq__question:hover {
+    cursor: pointer;
+}
+
 .faq__subtitle {
     font-weight: var(--font-weight-title);
     font-size: var(--font-size-title-sm);
     line-height: var(--line-height-heading);
+    transition: color var(--motion-duration-fast) var(--motion-ease);
+}
+
+.faq__article details[open] .faq__subtitle {
+    color: var(--color-text-accent-green-1);
 }
 
 .faq__answer {
