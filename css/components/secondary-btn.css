@@ -25,3 +25,15 @@
 .home-page .our-services .btn--secondary {
     margin-top: auto;
 }
+
+.home-page .testimonials .btn--secondary {
+    display: none;
+    white-space: nowrap;
+    margin-left: var(--space-3);
+}
+
+@media (min-width: 768px) {
+    .home-page .testimonials .btn--secondary {
+        display: block;
+    }   
+}
