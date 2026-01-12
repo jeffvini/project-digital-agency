@@ -19,4 +19,8 @@
     .home-page .our-services__intro, .home-page .benefits__intro, .home-page .testimonials__intro, .faq__intro {
         padding-block: var(--space-20);
     }
+
+    .home-page .our-services__text, .home-page .benefits__text, .home-page .testimonials__text, .faq__text {
+        margin-inline: var(--space-20);
+    }
 }
