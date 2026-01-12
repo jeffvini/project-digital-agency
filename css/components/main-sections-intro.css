@@ -12,7 +12,7 @@
     font-size: var(--font-size-title-md);
     font-weight: var(--font-weight-title);
     line-height: var(--line-height-heading);
-    margin-bottom: var(--space-1);
+    margin-bottom: var(--space-2);
 }
 
 @media (min-width: 1024px) {
