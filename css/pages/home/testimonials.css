@@ -52,25 +52,13 @@
 }
 
 .home-page .testimonials__author-logo {
-    margin-right: var(--space-3);
+    margin-right: var(--space-4);
 }
 
 .home-page .testimonials__author-name {
     font-style: normal;
     font-size: var(--font-size-text-lg);
     font-weight: var(--font-weight-medium);
-}
-
-.home-page .testimonials .btn--secondary {
-    display: none;
-    white-space: nowrap;
-    margin-left: var(--space-3);
-}
-
-@media (min-width: 768px) {
-    .home-page .testimonials .btn--secondary {
-        display: block;
-    }   
 }
 
 @media (min-width: 1024px) {
