@@ -1,4 +1,4 @@
-.home-page .our-services__intro, .home-page .benefits__intro, .home-page .testimonials__intro, .faq__intro {
+.home-page .our-services__intro, .home-page .benefits__intro, .home-page .testimonials__intro, .home-page .contact__intro, .faq__intro {
     text-align: center;
     border-bottom: solid 1px var(--color-border-accent-grey);
     padding-block: var(--space-12);
@@ -8,7 +8,7 @@
     background-position: center;
 }
 
-.home-page .our-services__title, .home-page .benefits__title, .home-page .testimonials__title, .faq__title {
+.home-page .our-services__title, .home-page .benefits__title, .home-page .testimonials__title, .home-page .contact__title, .faq__title {
     font-size: var(--font-size-title-md);
     font-weight: var(--font-weight-title);
     line-height: var(--line-height-heading);
@@ -16,11 +16,11 @@
 }
 
 @media (min-width: 1024px) {
-    .home-page .our-services__intro, .home-page .benefits__intro, .home-page .testimonials__intro, .faq__intro {
+    .home-page .our-services__intro, .home-page .benefits__intro, .home-page .testimonials__intro, .home-page .contact__intro, .faq__intro {
         padding-block: var(--space-20);
     }
 
-    .home-page .our-services__text, .home-page .benefits__text, .home-page .testimonials__text, .faq__text {
+    .home-page .our-services__text, .home-page .benefits__text, .home-page .testimonials__text, .home-page .contact__text, .faq__text {
         margin-inline: var(--space-20);
     }
 }
