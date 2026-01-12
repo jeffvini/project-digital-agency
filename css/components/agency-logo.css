@@ -1,3 +1,9 @@
+.home-page .contact__intro .agency-logo--contact {
+    margin-inline: auto;
+    margin-bottom: var(--space-8);
+    width: var(--space-16);
+}
+
 .agency-logo--footer {
     margin-inline: auto;
     margin-bottom: var(--space-8);
