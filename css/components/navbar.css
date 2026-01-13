@@ -64,6 +64,10 @@
         display: flex;
     }
 
+    .navbar--footer {
+        margin-inline: var(--space-8);
+    }
+
     .navbar--footer .navbar__list {
         display: flex;
         flex-wrap: nowrap;
