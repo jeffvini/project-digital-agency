@@ -1,7 +1,14 @@
 .icon-wrapper--hamburguer, .icon-wrapper--close-drawer {
-    padding: var(--space-2);
     border-radius: var(--radius-sm);
     transition: background-color var(--motion-duration-slow) var(--motion-ease);
+}
+
+.icon-wrapper--hamburguer {
+    padding: var(--space-3);
+}
+
+.icon-wrapper--close-drawer {
+    padding: var(--space-2);
 }
 
 .icon-wrapper--hamburguer:hover, .icon-wrapper--close-drawer:hover {
