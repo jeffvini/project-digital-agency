@@ -13,6 +13,10 @@
     background-color: var(--color-background-hover-grey-1);
 }
 
+header .btn--cta {
+    display: none;
+}
+
 .drawer .btn--cta {
     display: block;
     padding-block: var(--space-2);
@@ -27,6 +31,10 @@
 }
 
 @media (min-width: 1024px) {
+    header .btn--cta {
+        display: flex;
+    }
+    
     .contact-form .btn--cta {
         width: max-content;
         padding-inline: var(--space-8);
