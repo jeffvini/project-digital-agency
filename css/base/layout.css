@@ -61,10 +61,6 @@ main > section:last-child {
 }
 
 @media (min-width: 1024px) {
-    header .container {
-        margin-block: var(--space-5);
-    }
-
     .header__hamburger {
         display: none;
     }
