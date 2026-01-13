@@ -1,3 +1,13 @@
+.icon-wrapper--hamburguer, .icon-wrapper--close-drawer {
+    padding: var(--space-2);
+    border-radius: var(--radius-sm);
+    transition: background-color var(--motion-duration-slow) var(--motion-ease);
+}
+
+.icon-wrapper--hamburguer:hover, .icon-wrapper--close-drawer:hover {
+    background-color: var(--color-background-hover-grey-1);
+}
+
 .icon-wrapper span:only-child {
     mask-repeat: no-repeat;
     mask-size: contain;
@@ -7,12 +17,6 @@
     -webkit-mask-position: center;
 }
 
-.icon-wrapper--hamburguer, .icon-wrapper--close-drawer {
-    padding: var(--space-2);
-    border-radius: var(--radius-sm);
-    transition: background-color var(--motion-duration-slow) var(--motion-ease);
-}
-
 .icon-wrapper--hamburguer span:only-child {
     display: block;
     padding: var(--space-4);
@@ -20,10 +24,6 @@
     transition: background-color var(--motion-duration-slow) var(--motion-ease);
     mask-image: url('../../images/icons/menu-bar.svg');
     -webkit-mask-image: url('../../images/icons/menu-bar.svg');
-}
-
-.icon-wrapper--hamburguer:hover, .icon-wrapper--close-drawer:hover {
-    background-color: var(--color-background-hover-grey-1);
 }
 
 .icon-wrapper--hamburguer:hover span:only-child {
