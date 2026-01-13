@@ -19,3 +19,17 @@
     margin-top: var(--space-6);
     text-align: center;
 }
+
+.home-page .contact__intro .btn--cta {
+    margin-inline: auto;
+    margin-top: var(--space-8);
+    width: max-content;
+}
+
+@media (min-width: 1024px) {
+    .contact-form .btn--cta {
+        width: max-content;
+        padding-inline: var(--space-8);
+        margin-inline: auto;
+    }
+}
