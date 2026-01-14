@@ -27,8 +27,8 @@ body:has(dialog[open]) {
     font-size: var(--font-size-text-interface);
 }
 
-section.contact {
-  scroll-margin-top: 90px; 
+section[id] {
+  scroll-margin-top: var(--space-20); 
 }
 
 footer .container {
