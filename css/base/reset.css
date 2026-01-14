@@ -23,8 +23,16 @@ body:has(dialog[open]) {
     overflow: hidden;
 }
 
+.navbar--main, .navbar--mobile, .btn--secondary, .btn--cta {
+    font-size: var(--font-size-text-interface);
+}
+
 section.contact {
   scroll-margin-top: 90px; 
+}
+
+footer .container {
+    font-size: var(--font-size-text-small);
 }
 
 button, input, textarea {
