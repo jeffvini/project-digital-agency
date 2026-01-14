@@ -130,12 +130,14 @@
     --font-family-main: var(--font-family-barlow); /* Barlow */
 
     /* Font Size */
-    --font-size-display:      var(--font-size-8xl);  /* 40px */
-    --font-size-title-lg:     var(--font-size-6xl);  /* 34px */
-    --font-size-title-md:     var(--font-size-4xl);  /* 28px */
-    --font-size-title-sm:     var(--font-size-xl);   /* 20px */
-    --font-size-text-lg:      var(--font-size-lg);   /* 18px */
-    --font-size-text-default: var(--font-size-base); /* 16px */
+    --font-size-display:        var(--font-size-8xl);    /* 40px */
+    --font-size-title-lg:       var(--font-size-6xl);    /* 34px */
+    --font-size-title-md:       var(--font-size-4xl);    /* 28px */
+    --font-size-title-sm:       var(--font-size-xl);     /* 20px */
+    --font-size-text-lg:        var(--font-size-lg);     /* 18px */
+    --font-size-text-default:   var(--font-size-base);   /* 16px */
+    --font-size-text-interface: var(--font-size-base);   /* 16px */
+    --font-size-text-small:     var(--font-size-sm);     /* 14px */
 
     /* Font Weights */
     --font-weight-title:   var(--font-weight-semibold);
@@ -173,21 +175,21 @@
         --font-size-title-sm:     var(--font-size-3xl);  /* 24px */
 
         /* Gutter */
-        --space-container-gutter: var(--space-16);  /* 64px */
+        --space-container-gutter: var(--space-12);  /* 48px */
     }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1024px) {
     :root {
         /* Font Size (Desktop) */
         --font-size-display:      var(--font-size-12xl); /* 68px */
         --font-size-title-lg:     var(--font-size-11xl); /* 60px */
         --font-size-title-md:     var(--font-size-10xl); /* 48px */
         --font-size-title-sm:     var(--font-size-5xl);  /* 30px */
-        --font-size-text-lg:      var(--font-size-2xl);  /* 22px */
+        --font-size-text-lg:      var(--font-size-xl);   /* 20px */
         --font-size-text-default: var(--font-size-lg);   /* 18px */
 
         /* Gutter */
-        --space-container-gutter: var(--space-20); /* 80px */  
+        --space-container-gutter: var(--space-16);  /* 64px */
     }
 }
