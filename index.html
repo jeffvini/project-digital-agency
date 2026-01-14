@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | SquareUp</title>
+    <link rel="icon" type="image/svg+xml" href="./images/icons/favicon.svg">
+    <link rel="alternate icon" type="image/x-icon" href="./images/icons/favicon.ico">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="home-page">
@@ -21,42 +23,46 @@
                         <li class="navbar__item"><a href="./careers.html" class="navbar__link">Careers</a></li>
                     </ul>
                 </nav>
-                <a href="#contact-form" class="btn btn--cta">Contact Us</a>
+                <a href="./contact.html" class="btn btn--cta" aria-label="Contact SquareUp to start a project">Contact Us</a>
                 <button type="button" class="header__hamburger js-open-menu" aria-label="Open menu mobile" aria-controls="drawer" aria-expanded="false">
                     <div class="icon-wrapper icon-wrapper--hamburguer"><span class="icon-wrapper__icon"></span></div>
                 </button>  
-                <dialog class="drawer js-drawer" id="drawer" aria-label="Mobile navigation menu">
-                    <div class="drawer__content">
-                        <div class="drawer__panel-top">
-                            <img class="agency-logo agency-logo--drawer" src="images/logos/logo-agency-sm.svg" alt="SquareUp agency logo" loading="lazy">
-                            <button type="button" class="drawer__close-btn js-close-menu" aria-label="Close menu mobile">
-                                <div class="icon-wrapper icon-wrapper--close-drawer"><span class="icon-wrapper__icon"></span></div>
-                            </button>
-                        </div>
-                        <nav class="navbar navbar--mobile" aria-label="Mobile/Tablet menu navigation links to site pages">
-                            <ul class="navbar__list">
-                                <li class="navbar__item"><a href="#" class="navbar__link" aria-current="page">Home</a></li>
-                                <li class="navbar__item"><a href="./services.html" class="navbar__link">Services</a></li>
-                                <li class="navbar__item"><a href="./works.html" class="navbar__link">Work</a></li>
-                                <li class="navbar__item"><a href="./process.html" class="navbar__link">Process</a></li>
-                                <li class="navbar__item"><a href="./about.html" class="navbar__link">About</a></li>
-                                <li class="navbar__item"><a href="./careers.html" class="navbar__link">Careers</a></li>
-                                <li class="navbar__item"><a href="#contact-form" class="btn btn--cta">Contact Us</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </dialog>
             </div>
        </header>
+
+       <dialog class="drawer js-drawer" id="drawer" aria-label="Mobile navigation menu">
+            <div class="drawer__content">
+                <div class="drawer__panel-top">
+                    <img class="agency-logo agency-logo--drawer" src="images/logos/logo-agency-sm.svg" alt="SquareUp agency logo" loading="lazy">
+                    <button type="button" class="drawer__close-btn js-close-menu" aria-label="Close menu mobile">
+                        <div class="icon-wrapper icon-wrapper--close-drawer"><span class="icon-wrapper__icon"></span></div>
+                    </button>
+                </div>
+
+                <nav class="navbar navbar--mobile" aria-label="Mobile/Tablet menu navigation links to site pages">
+                    <ul class="navbar__list">
+                        <li class="navbar__item"><a href="#" class="navbar__link" aria-current="page">Home</a></li>
+                        <li class="navbar__item"><a href="./services.html" class="navbar__link">Services</a></li>
+                        <li class="navbar__item"><a href="./works.html" class="navbar__link">Work</a></li>
+                        <li class="navbar__item"><a href="./process.html" class="navbar__link">Process</a></li>
+                        <li class="navbar__item"><a href="./about.html" class="navbar__link">About</a></li>
+                        <li class="navbar__item"><a href="./careers.html" class="navbar__link">Careers</a></li>
+                    </ul>
+                </nav>
+                <a href="./contact.html" class="btn btn--cta" aria-label="Contact SquareUp to start a project">Contact Us</a>
+            </div>
+       </dialog>
+
        <main>
             <section class="hero" aria-labelledby="display">
                 <h1 class="hero__display" id="display">A Digital Product Studio that will Work</h1>
                 <p class="hero__audience-text">For <span class="hero__audience-item">Startups</span>, <span class="hero__audience-item">Enterprise leaders</span>, <span class="hero__audience-item">Media & Publishers</span> and <span class="hero__audience-item">Social Good</span></p>
                 <div class="hero__actions">
                     <a href="./works.html" class="btn btn--secondary">Our Works</a>
-                    <a href="#contact-form" class="btn btn--cta">Contact Us</a>
+                    <a href="#contact" class="btn btn--cta">Contact Us</a>
                 </div>
             </section>
+
             <section class="trusted-companies" aria-labelledby="trusted-by">
                 <p class="trusted-companies__label" id="trusted-by"><span class="trusted-companies__highlight">Trusted By 250+ Companies</span></p>
                 <ul class="trusted-companies__list" aria-label="Companies list">
@@ -68,43 +74,45 @@
                     <li class="trusted-companies__item"><img class="trusted-companies__logo" src="images/logos/logo-ipsum-6.svg" alt="Company 6" loading="lazy"></li>
                 </ul>
             </section>
+
             <section class="our-services" aria-labelledby="our-services-title">
                 <div class="our-services__intro">
                     <h2 class="our-services__title" id="our-services-title">Our Services</h2>
                     <p class="our-services__text">Transform your brand with our innovative digital solutions that captivate and engage your audience.</p>
                 </div>
+
                 <ul class="our-services__list" aria-label="List of services">
                     <li class="our-services__item">
-                        <article class="our-services__article">
+                        <article class="our-services__article" aria-labelledby="service-design">
                             <div class="our-services__header-article">
                                 <div class="icon-wrapper icon-wrapper--services">
                                     <img class="icon-wrapper__icon" src="images/icons/paint-brush-1.svg" alt="" aria-hidden="true" loading="lazy">
                                 </div>
-                                <h3 class="our-services__subtitle">Design</h3>
+                                <h3 class="our-services__subtitle" id="service-design">Design</h3>
                             </div>
                             <p class="our-services__description">At Squareup, our design team is passionate about creating stunning, user-centric designs that captivate your audience and elevate your brand. We believe that great design is not just about aesthetics; it's about creating seamless and intuitive user experiences.</p>
                             <a href="./services.html" class="btn btn--secondary" aria-label="Learn more about Design service">Learn More</a>
                         </article>
                     </li>
                     <li class="our-services__item">
-                        <article class="our-services__article">
+                        <article class="our-services__article" aria-labelledby="service-engineering">
                             <div class="our-services__header-article">
                                 <div class="icon-wrapper icon-wrapper--services">
                                     <img class="icon-wrapper__icon" src="images/icons/puzzle-piece-1.svg" alt="" aria-hidden="true" loading="lazy">
                                 </div>
-                                <h3 class="our-services__subtitle">Engineering</h3>
+                                <h3 class="our-services__subtitle" id="service-engineering">Engineering</h3>
                             </div>
                             <p class="our-services__description">Our engineering team combines technical expertise with a passion for innovation to build robust and scalable digital solutions. We leverage the latest technologies and best practices to deliver high-performance applications tailored to your specific needs.</p>
                             <a href="./services.html" class="btn btn--secondary" aria-label="Learn more about Engineering service">Learn More</a>
                         </article>
                     </li>
                     <li class="our-services__item">
-                        <article class="our-services__article">
+                        <article class="our-services__article" aria-labelledby="service-project">
                             <div class="our-services__header-article">
                                 <div class="icon-wrapper icon-wrapper--services">
                                     <img class="icon-wrapper__icon" src="images/icons/battery.svg" alt="" aria-hidden="true" loading="lazy">
                                 </div>
-                                <h3 class="our-services__subtitle">Project Management</h3>
+                                <h3 class="our-services__subtitle" id="service-project">Project Management</h3>
                             </div>
                             <p class="our-services__description">Our experienced project management team ensures that your projects are delivered on time, within budget, and according to your specifications. We follow industry-standard methodologies and employ effective communication and collaboration tools to keep you informed throughout the development process.</p>
                             <a href="./services.html" class="btn btn--secondary" aria-label="Learn more about Project Management service">Learn More</a>
@@ -112,66 +120,70 @@
                     </li>
                 </ul>
             </section>
+
             <section class="benefits" aria-labelledby="benefits-title">
                 <div class="benefits__intro">
                     <h2 class="benefits__title" id="benefits-title">Why Choose SquareUp?</h2>
                     <p class="benefits__text">Experience excellence in digital craftsmanship with our team of skilled professionals dedicated to delivering exceptional results.</p>
                 </div>
+
                 <ul class="benefits__list" aria-label="List of benefits of choosing SquareUp">
                     <li class="benefits__item">
-                        <article class="benefits__article">
+                        <article class="benefits__article" aria-labelledby="benefit-expertise">
                             <div class="benefits__header-article">
                                 <div class="icon-wrapper icon-wrapper--benefits">
                                     <img class="icon-wrapper__icon" src="images/icons/medal.svg" alt="" aria-hidden="true" loading="lazy">
                                 </div>
-                                <h3 class="benefits__subtitle">Expertise</h3>
+                                <h3 class="benefits__subtitle" id="benefit-expertise">Expertise</h3>
                             </div>
                             <p class="benefits__description">Our team consists of highly skilled professionals who have a deep understanding of the digital landscape. We stay updated with the latest industry trends and best practices to deliver cutting-edge solutions.</p>
                         </article>
                     </li>
                     <li class="benefits__item">
-                        <article class="benefits__article">
+                        <article class="benefits__article" aria-labelledby="benefit-approach">
                             <div class="benefits__header-article">
                                 <div class="icon-wrapper icon-wrapper--benefits">
                                     <img class="icon-wrapper__icon" src="images/icons/users.svg" alt="" aria-hidden="true" loading="lazy">
                                 </div>
-                                <h3 class="benefits__subtitle">Client-Centric Approach</h3>
+                                <h3 class="benefits__subtitle" id="benefit-approach">Client-Centric Approach</h3>
                             </div>
                             <p class="benefits__description">We prioritize our clients and their unique needs. We listen to your ideas, challenges, and goals, and tailor our services to meet your specific requirements. Your success is our success.</p>
                         </article>
                     </li>
                     <li class="benefits__item">
-                        <article class="benefits__article">
+                        <article class="benefits__article" aria-labelledby="benefit-solutions">
                             <div class="benefits__header-article">
                                 <div class="icon-wrapper icon-wrapper--benefits">
                                     <img class="icon-wrapper__icon" src="images/icons/shield-bolt.svg" alt="" aria-hidden="true" loading="lazy">
                                 </div>
-                                <h3 class="benefits__subtitle">Results-Driven Solutions</h3>
+                                <h3 class="benefits__subtitle" id="benefit-solutions">Results-Driven Solutions</h3>
                             </div>
                             <p class="benefits__description">Our primary focus is on delivering results. We combine creativity and technical expertise to create digital products that drive business growth, enhance user experiences, and provide a competitive advantage.</p>
                         </article>
                     </li>
                     <li class="benefits__item">
-                        <article class="benefits__article">
+                        <article class="benefits__article" aria-labelledby="benefit-collaborative">
                             <div class="benefits__header-article">
                                 <div class="icon-wrapper icon-wrapper--benefits">
                                     <img class="icon-wrapper__icon" src="images/icons/crown.svg" alt="" aria-hidden="true" loading="lazy">
                                 </div>
-                                <h3 class="benefits__subtitle">Collaborative Partnership</h3>
+                                <h3 class="benefits__subtitle" id="benefit-collaborative">Collaborative Partnership</h3>
                             </div>
                             <p class="benefits__description">We value long-term relationships with our clients. We see ourselves as your digital partner, providing ongoing support, maintenance, and updates to ensure your digital products continue to thrive.</p>
                         </article>
                     </li>
                 </ul>
             </section>
+
             <section class="testimonials" aria-labelledby="testimonials-title">
                 <div class="testimonials__intro">
                     <h2 class="testimonials__title" id="testimonials-title">What our Clients say About us</h2>
                     <p class="testimonials__text">At SquareUp, we take pride in delivering exceptional digital products and services that drive success for our clients. Here's what some of our satisfied clients have to say about their experience working with us</p>
                 </div>
+
                 <ul class="testimonials__list" aria-label="List of clients testimonials">
                     <li class="testimonials__item">
-                        <article class="testimonials__article">
+                        <article class="testimonials__article" aria-labelledby="author-john">
                             <h3 class="testimonials__subtitle">SquareUp has been Instrumental in Transforming our Online Presence.</h3>
                             <blockquote class="testimonials__quote">
                                 <p class="testimonials__description">Their team's expertise in web development and design resulted in a visually stunning and user-friendly e-commerce platform. Our online sales have skyrocketed, and we couldn't be happier.</p>
@@ -180,7 +192,7 @@
                                 <div class="testimonials__author-details">
                                     <img class="testimonials__author-logo" src="images/icons/user-profile-2.svg" aria-hidden="true" alt="" loading="lazy">
                                     <div class="testimonials__author-description">
-                                        <cite class="testimonials__author-name">John Smith</cite>
+                                        <cite class="testimonials__author-name" id="author-john">John Smith</cite>
                                         <p class="testimonials__author-profession">CEO of Chic Boutique</p>
                                     </div>
                                 </div>
@@ -189,7 +201,7 @@
                         </article>
                     </li>
                     <li class="testimonials__item">
-                        <article class="testimonials__article">
+                        <article class="testimonials__article" aria-labelledby="author-sarah">
                             <h3 class="testimonials__subtitle">Working with SquareUp was a breeze.</h3>
                             <blockquote class="testimonials__quote">
                                 <p class="testimonials__description">They understood our vision for a mobile app that streamlined our food delivery service. The app they delivered exceeded our expectations, and our customers love the seamless ordering experience. SquareUp is a trusted partner we highly recommend.</p>
@@ -198,7 +210,7 @@
                                 <div class="testimonials__author-details">
                                     <img class="testimonials__author-logo" src="images/icons/user-profile-1.svg" aria-hidden="true" alt="" loading="lazy">
                                     <div class="testimonials__author-description">
-                                        <cite class="testimonials__author-name">Sarah Johnson</cite>
+                                        <cite class="testimonials__author-name" id="author-sarah">Sarah Johnson</cite>
                                         <p class="testimonials__author-profession">Founder of HungryBites</p>
                                     </div>
                                 </div>
@@ -207,7 +219,7 @@
                         </article>
                     </li>
                     <li class="testimonials__item">
-                        <article class="testimonials__article">
+                        <article class="testimonials__article" aria-labelledby="author-mark">
                             <h3 class="testimonials__subtitle">SquareUp developed a comprehensive booking and reservation system for our event management company</h3>
                             <blockquote class="testimonials__quote">
                                 <p class="testimonials__description">Their attention to detail and commitment to delivering a user-friendly platform was evident throughout the project. The system has streamlined our operations and enhanced our clients' event experiences.</p>
@@ -216,7 +228,7 @@
                                 <div class="testimonials__author-details">
                                     <img class="testimonials__author-logo" src="images/icons/user-profile-4.svg" aria-hidden="true" alt="" loading="lazy">
                                     <div class="testimonials__author-description">
-                                        <cite class="testimonials__author-name">Mark Thompson</cite>
+                                        <cite class="testimonials__author-name" id="author-mark">Mark Thompson</cite>
                                         <p class="testimonials__author-profession">CEO of EventMasters</p>
                                     </div>
                                 </div>
@@ -225,7 +237,7 @@
                         </article>
                     </li>
                     <li class="testimonials__item">
-                        <article class="testimonials__article">
+                        <article class="testimonials__article" aria-labelledby="author-laura">
                             <h3 class="testimonials__subtitle">ProTech Solutions turned to SquareUp to automate our workflow</h3>
                             <blockquote class="testimonials__quote">
                                 <p class="testimonials__description">They delivered an exceptional custom software solution. The system has significantly increased our productivity and reduced manual errors. SquareUp's expertise and professionalism have made them a trusted technology partner.</p>
@@ -234,7 +246,7 @@
                                 <div class="testimonials__author-details">
                                     <img class="testimonials__author-logo" src="images/icons/user-profile-6.svg" aria-hidden="true" alt="" loading="lazy">
                                     <div class="testimonials__author-description">
-                                        <cite class="testimonials__author-name">Laura Adams</cite>
+                                        <cite class="testimonials__author-name" id="author-laura">Laura Adams</cite>
                                         <p class="testimonials__author-profession">COO of ProTech Solutions</p>
                                     </div>
                                 </div>
@@ -243,7 +255,7 @@
                         </article>
                     </li>
                     <li class="testimonials__item">
-                        <article class="testimonials__article">
+                        <article class="testimonials__article" aria-labelledby="author-michael">
                             <h3 class="testimonials__subtitle">SquareUp designed and developed a captivating web portal for showcasing our real estate listings.</h3>
                             <blockquote class="testimonials__quote">
                                 <p class="testimonials__description">The platform is visually appealing and easy to navigate, allowing potential buyers to find their dream homes effortlessly. SquareUp's expertise in the real estate industry is unmatched.</p>
@@ -252,7 +264,7 @@
                                 <div class="testimonials__author-details">
                                     <img class="testimonials__author-logo" src="images/icons/user-profile-5.svg" aria-hidden="true" alt="" loading="lazy">
                                     <div class="testimonials__author-description">
-                                        <cite class="testimonials__author-name">Michael Anderson</cite>
+                                        <cite class="testimonials__author-name" id="author-michael">Michael Anderson</cite>
                                         <p class="testimonials__author-profession">Founder of Dream Homes Realty</p>
                                     </div>
                                 </div>
@@ -261,7 +273,7 @@
                         </article>
                     </li>
                     <li class="testimonials__item">
-                        <article class="testimonials__article">
+                        <article class="testimonials__article" aria-labelledby="author-emily">
                             <h3 class="testimonials__subtitle">FitLife Tracker wanted a mobile app that tracked fitness activities and provided personalized workout plans.</h3>
                             <blockquote class="testimonials__quote">
                                 <p class="testimonials__description">SquareUp's team developed an intuitive and feature-rich app that has helped our users stay motivated and achieve their fitness goals. We highly recommend SquareUp for any health and fitness app development needs.</p>
@@ -270,7 +282,7 @@
                                 <div class="testimonials__author-details">
                                     <img class="testimonials__author-logo" src="images/icons/user-profile-3.svg" aria-hidden="true" alt="" loading="lazy">
                                     <div class="testimonials__author-description">
-                                        <cite class="testimonials__author-name">Emily Turner</cite>
+                                        <cite class="testimonials__author-name" id="author-emily">Emily Turner</cite>
                                         <p class="testimonials__author-profession">CEO of FitLife Tracker</p>
                                     </div>
                                 </div>
@@ -280,11 +292,13 @@
                     </li>
                 </ul>
             </section>
+
             <section class="faq" aria-labelledby="faq-title">
                 <div class="faq__intro">
                     <h2 class="faq__title" id="faq-title">Frequently Asked Questions</h2>
-                    <p class="faq__text">Still you have any questions? Contact our Team via <a class="faq__contact-link" href="#">contact@squareup.com</a></p>
+                    <p class="faq__text">Still you have any questions? Contact our Team via <a class="faq__contact-link" href="mailto:info@example.com">info@example.com</a></p>
                 </div>
+
                 <ul class="faq__list" aria-label="List of frequently asked questions">
                     <li class="faq__item">
                         <article class="faq__article">
@@ -332,13 +346,15 @@
                     </li>
                 </ul>
             </section>
-            <section class="contact" aria-labelledby="contact-form-title">
+
+            <section class="contact" id="contact" aria-labelledby="contact-title">
                 <div class="contact__intro">
                     <img class="agency-logo agency-logo--contact" src="images/logos/logo-agency-abstract.svg" alt="Abstract agency logo" loading="lazy">
-                    <h2 class="contact__title" id="contact-form-title">Thank you for your Interest in SquareUp.</h2>
+                    <h2 class="contact__title" id="contact-title">Thank you for your Interest in SquareUp.</h2>
                     <p class="contact__text">We would love to hear from you and discuss how we can help bring your digital ideas to life. Here are the different ways you can get in touch with us.</p>
-                    <a href="./contact.html" class="btn btn--cta">Start Project</a>
+                    <a href="./contact.html" class="btn btn--cta" aria-label="Go to full contact page to start a project">Start Project</a>
                 </div>
+
                 <form class="contact-form" onsubmit="return false;">
                     <div class="contact-form__container">
                         <div class="contact-form__field">
@@ -358,6 +374,7 @@
                 </form>
             </section>
        </main>
+
        <footer>
             <div class="container">
                 <div class="footer__top">
@@ -373,20 +390,20 @@
                             <li class="navbar__item"><a href="./contact.html" class="navbar__link">Contact</a></li>
                         </ul>
                     </nav>
-                    <div class="social-links" role="region" aria-labelledby="stay-connected">
-                        <p class="social-links__label" id="stay-connected">Stay Connected</p>
-                        <ul class="social-links__list">
-                            <li class="social-links__item"><a href="#" class="social-links__link" aria-label="Facebook">
+                    <div class="social-links">
+                        <p class="social-links__label" aria-hidden="true">Stay Connected</p>
+                        <ul class="social-links__list" aria-label="Social media links">
+                            <li class="social-links__item"><a href="https://www.facebook.com" class="social-links__link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                                 <div class="icon-wrapper icon-wrapper--social">
                                     <img class="icon-wrapper__icon" src="images/icons/facebook.svg" alt="" aria-hidden="true" loading="lazy">
                                 </div>
                             </a></li>
-                            <li class="social-links__item"><a href="#" class="social-links__link" aria-label="Twitter">
+                            <li class="social-links__item"><a href="https://x.com" class="social-links__link" target="_blank" rel="noopener noreferrer" aria-label="X, formerly Twitter">
                                 <div class="icon-wrapper icon-wrapper--social">
-                                    <img class="icon-wrapper__icon" src="images/icons/twitter.svg" alt="" aria-hidden="true" loading="lazy">
+                                    <img class="icon-wrapper__icon" src="images/icons/x-logo.svg" alt="" aria-hidden="true" loading="lazy">
                                 </div>
                             </a></li>
-                            <li class="social-links__item"><a href="#" class="social-links__link" aria-label="LinkedIn">
+                            <li class="social-links__item"><a href="https://www.linkedin.com" class="social-links__link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                                 <div class="icon-wrapper icon-wrapper--social">
                                     <img class="icon-wrapper__icon" src="images/icons/linkedIn.svg" alt="" aria-hidden="true" loading="lazy">
                                 </div>
@@ -394,30 +411,31 @@
                         </ul>
                     </div>
                 </div>
+
                 <div class="footer__bottom">
                     <address class="contact-links" aria-label="Contact information">
                         <ul class="contact-links__list">
                             <li class="contact-links__item">
-                                <a href="#" class="contact-links__link" aria-label="Email: contact@squareup.com">
+                                <a href="mailto:info@example.com" class="contact-links__link" aria-label="Send an email to our team">
                                     <img class="contact-links__icon" src="images/icons/email.svg" alt="" aria-hidden="true" loading="lazy">
-                                    <span aria-hidden="true">contact@squareup.com</span>
+                                    <span>info@example.com</span>
                                 </a>
                             </li>
                             <li class="contact-links__item">
-                                <a href="#" class="contact-links__link" aria-label="Telephone: +55 11 99999-8888">
+                                <a href="tel:+5511999999999" class="contact-links__link" aria-label="Call our support team">
                                     <img class="contact-links__icon" src="images/icons/telephone.svg" alt="" aria-hidden="true" loading="lazy">
-                                    <span aria-hidden="true">+55 11 99999-8888</span>
+                                    <span>+55 (11) 99999-9999</span>
                                 </a>
                             </li>
                             <li class="contact-links__item">
-                                <a href="#" class="contact-links__link" aria-label="Location: Somewhere in the World">
+                                <a href="https://maps.google.com" class="contact-links__link" target="_blank" rel="noopener noreferrer" aria-label="View location on Google Maps">
                                     <img class="contact-links__icon" src="images/icons/location.svg" alt="" aria-hidden="true" loading="lazy">
-                                    <span aria-hidden="true">Somewhere in the World</span>
+                                    <span>Somewhere in the World</span>
                                 </a>
                             </li>
                         </ul>
                     </address>
-                    <p class="footer__copy">© 2025 SquareUp. All rights reserved.</p>
+                    <p class="footer__copy">© 2026 SquareUp. All rights reserved.</p>
                 </div>
             </div>
        </footer>
