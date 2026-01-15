@@ -1,17 +1,3 @@
-.faq__intro {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/banners/banner-digital-wave-4.webp');
-}
-
-.faq__contact-link {
-    color: var(--color-text-accent-green-1);
-    text-decoration: underline;
-    transition: color var(--motion-duration-fast) var(--motion-ease);
-}
-
-.faq__contact-link:hover {
-    color: var(--color-text-secondary);
-}
-
 .faq__list {
     column-count: 1; 
     column-gap: 0;

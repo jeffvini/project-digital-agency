@@ -8,6 +8,20 @@
     background-position: center;
 }
 
+.faq__intro {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/banners/banner-digital-wave-4.webp');
+}
+
+.faq__contact-link {
+    color: var(--color-text-accent-green-1);
+    text-decoration: underline;
+    transition: color var(--motion-duration-fast) var(--motion-ease);
+}
+
+.faq__contact-link:hover {
+    color: var(--color-text-secondary);
+}
+
 .home-page .our-services__title, .home-page .benefits__title, .home-page .testimonials__title, .home-page .contact__title, .faq__title {
     font-size: var(--font-size-title-md);
     font-weight: var(--font-weight-title);
