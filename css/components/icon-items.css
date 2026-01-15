@@ -45,6 +45,17 @@
     -webkit-mask-image: url('../../images/icons/x-mark.svg');
 }
 
+.icon-wrapper--social, .icon-wrapper--services, .icon-wrapper--benefits {
+    width: max-content;
+    padding: var(--space-3);
+    border-radius: var(--radius-md);
+    background: var(--color-background-icon-wrapper);
+}
+
+.icon-wrapper--services .icon-wrapper__icon, .icon-wrapper--benefits .icon-wrapper__icon{
+    width: var(--space-8);
+}
+
 .icon-wrapper--open-faq {
     padding: var(--space-1);
     margin-left: var(--space-5);
@@ -61,15 +72,4 @@
 .faq__article details[open] .icon-wrapper__icon {
     background-color: var(--color-background-accent-green-1);
     transform: rotate(45deg);
-}
-
-.icon-wrapper--social, .icon-wrapper--services, .icon-wrapper--benefits {
-    width: max-content;
-    padding: var(--space-3);
-    border-radius: var(--radius-md);
-    background: var(--color-background-icon-wrapper);
-}
-
-.icon-wrapper--services .icon-wrapper__icon, .icon-wrapper--benefits .icon-wrapper__icon{
-    width: var(--space-8);
 }
