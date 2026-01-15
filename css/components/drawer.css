@@ -13,6 +13,10 @@
     border: none;
 }
 
+.drawer::backdrop {
+    background-color: var(--color-background-overlay);
+}
+
 .is-close-drawer {
     display: flex;
     transform: translateX(100%);
@@ -21,12 +25,6 @@
 .drawer[open]:not(.is-close-drawer) {
     display: flex;
     transform: translateX(0%);
-}
-
-@starting-style {
-    .drawer[open]:not(.is-close-drawer) {
-        transform: translateX(100%);
-    }
 }
 
 .drawer__wrapper {
@@ -52,6 +50,8 @@
     padding-inline: var(--space-3);
 }
 
-.drawer::backdrop {
-    background-color: var(--color-background-overlay);
+@starting-style {
+    .drawer[open]:not(.is-close-drawer) {
+        transform: translateX(100%);
+    }
 }
