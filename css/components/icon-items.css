@@ -52,7 +52,7 @@
     background: var(--color-background-icon-wrapper);
 }
 
-.icon-wrapper--services .icon-wrapper__icon, .icon-wrapper--benefits .icon-wrapper__icon{
+.icon-wrapper--services .icon-wrapper__icon, .icon-wrapper--benefits .icon-wrapper__icon {
     width: var(--space-8);
 }
 
