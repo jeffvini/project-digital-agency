@@ -1,5 +1,5 @@
 .icon-wrapper--hamburguer, .icon-wrapper--close-drawer {
-    border-radius: var(--radius-sm);
+    border-radius: var(--radius-md);
     transition: background-color var(--motion-duration-medium) var(--motion-ease);
 }
 
