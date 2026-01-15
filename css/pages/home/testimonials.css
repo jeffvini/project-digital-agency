@@ -1,15 +1,9 @@
-.home-page .testimonials__intro {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../../images/banners/banner-digital-wave-3.webp');
-}
-
 .home-page .testimonials__list {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .home-page .testimonials__item {
-    flex: 1;
-    flex-basis: 447px;
     border-bottom: solid 1px var(--color-border-accent-grey);
     padding-inline: var(--space-8);
     padding-block: var(--space-10);
@@ -49,6 +43,7 @@
 
 .home-page .testimonials__author-details {
     display: flex;
+    align-items: center;
 }
 
 .home-page .testimonials__author-logo {
@@ -62,7 +57,13 @@
 }
 
 @media (min-width: 1024px) {
+    .home-page .testimonials__list {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
     .home-page .testimonials__item {
+        flex: 1 1 45%;
         padding: var(--space-12);
     }
 

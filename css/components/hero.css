@@ -51,6 +51,14 @@
 }
 
 @media (min-width: 1024px) {
+    .home-page .hero::before {
+        background-size: 120%;
+    }
+
+    .home-page .hero__display {
+        margin-top: calc(var(--space-20) * 1.4);
+    }
+    
     .home-page .hero__audience-item {
         color: var(--color-text-accent-white);
         background-color: var(--color-background-accent-grey-2);
@@ -58,13 +66,5 @@
         padding-block: var(--space-2);
         padding-inline: var(--space-3);
         margin-right: var(--space-1);
-    }
-
-    .home-page .hero::before {
-        background-size: 120%;
-    }
-
-    .home-page .hero__display {
-        margin-top: calc(var(--space-20) * 1.4);
     }
 }
