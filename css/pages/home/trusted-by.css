@@ -3,7 +3,6 @@
 }
 
 .home-page .trusted-companies__label {
-   color: var(--color-text-accent-white);
    position: absolute;
    top: calc(var(--space-3) * -1);
    left: 50%;
