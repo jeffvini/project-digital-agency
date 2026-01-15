@@ -7,11 +7,6 @@
     padding-block: var(--space-4);
 }
 
-.contact-links__icon {
-    display: inline-block;
-    margin-right: var(--space-2);
-}
-
 .contact-links__link {
     display: flex;
     align-items: center;
@@ -20,14 +15,15 @@
     margin-inline: auto;
 }
 
+.contact-links__icon {
+    display: inline-block;
+    margin-right: var(--space-2);
+}
+
 @media (min-width: 1024px) {
     .contact-links__list {
         display: flex;
         gap: var(--space-5);
         margin-top: 0;
-    }
-
-    .contact-links__item {
-        padding-bottom: var(--space-4);
     }
 }
