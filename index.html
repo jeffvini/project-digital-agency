@@ -31,7 +31,7 @@
        </header>
 
        <dialog class="drawer js-drawer" id="drawer" aria-label="Mobile navigation menu">
-            <div class="drawer__content">
+            <div class="drawer__wrapper">
                 <div class="drawer__panel-top">
                     <img class="agency-logo agency-logo--drawer" src="images/logos/logo-agency-sm.svg" alt="SquareUp agency logo" loading="lazy">
                     <button type="button" class="drawer__close-btn js-close-menu" aria-label="Close menu mobile">
@@ -39,17 +39,19 @@
                     </button>
                 </div>
 
-                <nav class="navbar navbar--mobile" aria-label="Mobile/Tablet menu navigation links to site pages">
-                    <ul class="navbar__list">
-                        <li class="navbar__item"><a href="#" class="navbar__link" aria-current="page">Home</a></li>
-                        <li class="navbar__item"><a href="./services.html" class="navbar__link">Services</a></li>
-                        <li class="navbar__item"><a href="./works.html" class="navbar__link">Work</a></li>
-                        <li class="navbar__item"><a href="./process.html" class="navbar__link">Process</a></li>
-                        <li class="navbar__item"><a href="./about.html" class="navbar__link">About</a></li>
-                        <li class="navbar__item"><a href="./careers.html" class="navbar__link">Careers</a></li>
-                    </ul>
-                </nav>
-                <a href="./contact.html" class="btn btn--cta" aria-label="Contact SquareUp to start a project">Contact Us</a>
+                <div class="drawer__content">
+                    <nav class="navbar navbar--mobile" aria-label="Mobile/Tablet menu navigation links to site pages">
+                        <ul class="navbar__list">
+                            <li class="navbar__item"><a href="#" class="navbar__link" aria-current="page">Home</a></li>
+                            <li class="navbar__item"><a href="./services.html" class="navbar__link">Services</a></li>
+                            <li class="navbar__item"><a href="./works.html" class="navbar__link">Work</a></li>
+                            <li class="navbar__item"><a href="./process.html" class="navbar__link">Process</a></li>
+                            <li class="navbar__item"><a href="./about.html" class="navbar__link">About</a></li>
+                            <li class="navbar__item"><a href="./careers.html" class="navbar__link">Careers</a></li>
+                        </ul>
+                    </nav>
+                    <a href="./contact.html" class="btn btn--cta" aria-label="Contact SquareUp to start a project">Contact Us</a>
+                </div>
             </div>
        </dialog>
 
