@@ -1,7 +1,3 @@
-.home-page .testimonials__intro {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../../images/banners/banner-digital-wave-3.webp');
-}
-
 .home-page .testimonials__list {
     display: flex;
     flex-wrap: wrap;
