@@ -11,10 +11,6 @@
     gap: var(--space-3);
 }
 
-.navbar--mobile {
-    margin-inline: var(--space-4);
-}
-
 .navbar--mobile .navbar__link, .navbar--main .navbar__link {
     display: flex;
     border-radius: var(--radius-sm);
@@ -40,7 +36,7 @@
 .navbar--footer .navbar__list {
     display: flex;
     flex-wrap: wrap;
-    gap: var(--space-4);
+    gap: var(--space-5);
     justify-content: center;
     border-top: solid 1px var(--color-border-accent-grey);
     padding-top: var(--space-8);
@@ -71,7 +67,6 @@
     .navbar--footer .navbar__list {
         display: flex;
         flex-wrap: nowrap;
-        gap: var(--space-4);
         padding-top: 0;
         border-top: none;
     }
