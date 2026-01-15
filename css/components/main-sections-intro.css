@@ -29,6 +29,12 @@
     margin-bottom: var(--space-2);
 }
 
+@media (min-width: 768px) {
+    .home-page .our-services__text, .home-page .benefits__text, .home-page .testimonials__text, .home-page .contact__text, .faq__text {
+        margin-inline: var(--space-6);
+    }
+}
+
 @media (min-width: 1024px) {
     .home-page .our-services__intro, .home-page .benefits__intro, .home-page .testimonials__intro, .home-page .contact__intro, .faq__intro {
         padding-block: var(--space-20);
