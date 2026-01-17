@@ -28,7 +28,8 @@
 
 .home-page .testimonials .btn--secondary {
     display: none;
-    margin-left: var(--space-3);
+    white-space: nowrap;
+    margin-left: var(--space-5);
 }
 
 @media (min-width: 768px) {
