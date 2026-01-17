@@ -29,6 +29,10 @@ header .btn--cta {
     width: max-content;
 }
 
+.contact-form .btn--cta {
+    font-weight: var(--font-weight-action);
+}
+
 @media (min-width: 1024px) {
     header .btn--cta {
         display: block;
