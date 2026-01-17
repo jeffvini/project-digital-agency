@@ -23,7 +23,7 @@ header .btn--cta {
     text-align: center;
 }
 
-.home-page .contact__intro .btn--cta {
+.final-cta .btn--cta {
     margin-inline: auto;
     margin-top: var(--space-8);
     width: max-content;
