@@ -1,0 +1,33 @@
+.final-cta {
+    text-align: center;
+    border-bottom: solid 1px var(--color-border-accent-grey);
+    padding-block: var(--space-12);
+    padding-inline: var(--space-4);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/banners/banner-digital-wave-3.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.final-cta__title {
+    font-size: var(--font-size-title-md);
+    font-weight: var(--font-weight-title);
+    line-height: var(--line-height-heading);
+    margin-bottom: var(--space-2);
+}
+
+@media (min-width: 768px) {
+    .final-cta__title, .final-cta__text {
+        margin-inline: var(--space-6);
+    }
+}
+
+@media (min-width: 1024px) {
+    .final-cta {
+        padding-block: var(--space-20);
+    }
+
+    .final-cta__title, .final-cta__text {
+        margin-inline: var(--space-20);
+    }
+}
