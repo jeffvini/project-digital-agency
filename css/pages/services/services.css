@@ -37,8 +37,24 @@
     border: none;
 }
 
+.services-page .services__subtitle {
+    color: var(--color-grey-200);
+    text-align: center;
+    font-size: var(--font-size-title-sm);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--line-height-heading);
+    border-bottom: solid 1px var(--color-border-accent-grey);
+    padding-inline: var(--space-4);
+    padding-block: var(--space-10);
+}
+
 @media (min-width: 768px) {
     .services-page .services__intro {
+        padding-inline: var(--space-6);
+    }
+
+    .services-page .services__subtitle {
+        text-align: left;
         padding-inline: var(--space-6);
     }
 }
@@ -49,6 +65,10 @@
     }
 
     .services-page .services__intro {
+        padding-inline: var(--space-8);
+    }
+
+    .services-page .services__subtitle {
         padding-inline: var(--space-8);
     }
 }
