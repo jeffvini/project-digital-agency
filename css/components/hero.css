@@ -70,11 +70,11 @@
 }
 
 .careers-page .hero--internal {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/banners/banner-digital-wave-3.webp');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/banners/banner-digital-wave-4.webp');
 }
 
 .contact-page .hero--internal {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/banners/banner-digital-wave-4.webp');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/banners/banner-digital-wave-3.webp');
 }
 
 .hero--internal .hero__title {
