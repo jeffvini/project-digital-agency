@@ -45,7 +45,7 @@
     -webkit-mask-image: url('../../images/icons/x-mark.svg');
 }
 
-.icon-wrapper--social, .icon-wrapper--services, .icon-wrapper--benefits {
+.icon-wrapper--social, .icon-wrapper--services, .icon-wrapper--benefits, .icon-wrapper--feat-service {
     width: max-content;
     padding: var(--space-3);
     border-radius: var(--radius-md);
