@@ -29,6 +29,14 @@
     padding-inline: var(--space-3);
 }
 
+.services-page .services__item {
+    border-bottom: solid 1px var(--color-border-accent-grey);
+}
+
+.services-page .services__item:last-child {
+    border: none;
+}
+
 @media (min-width: 768px) {
     .services-page .services__intro {
         padding-inline: var(--space-6);
