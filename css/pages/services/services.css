@@ -8,6 +8,24 @@
     padding-bottom: var(--space-8);
 }
 
+.services-page .services__title {
+    font-size: var(--font-size-title-md);
+    font-weight: var(--font-weight-title);
+    line-height: var(--line-height-heading);
+    margin-bottom: var(--space-2);
+}
+
+.services-page .services__intro-list {
+    color: var(--color-text-accent-white);
+    margin-top: var(--space-10);
+}
+
+.services-page .services__intro-list-mark {
+    background-color: var(--color-background-accent-grey-2);
+    border-radius: var(--radius-md);
+    padding: var(--space-3);
+}
+
 @media (min-width: 768px) {
     .services-page .services__intro {
         padding-inline: var(--space-6);
