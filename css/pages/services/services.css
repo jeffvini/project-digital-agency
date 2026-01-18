@@ -2,8 +2,24 @@
     padding-top: var(--space-8);
 }
 
+.services-page .services__intro {
+    border-bottom: solid 1px var(--color-border-accent-grey);
+    padding-inline: var(--space-4);
+    padding-bottom: var(--space-8);
+}
+
+@media (min-width: 768px) {
+    .services-page .services__intro {
+        padding-inline: var(--space-6);
+    }
+}
+
 @media (min-width: 1024px) {
     .services-page .services {
         padding-top: var(--space-12);
+    }
+
+    .services-page .services__intro {
+        padding-inline: var(--space-8);
     }
 }
