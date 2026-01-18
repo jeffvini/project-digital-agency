@@ -1,0 +1,9 @@
+.services-page .services {
+    padding-top: var(--space-8);
+}
+
+@media (min-width: 1024px) {
+    .services-page .services {
+        padding-top: var(--space-12);
+    }
+}
