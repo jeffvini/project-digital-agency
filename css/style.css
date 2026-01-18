@@ -24,3 +24,6 @@
 @import url('pages/home/our-services.css');
 @import url('pages/home/benefits.css');
 @import url('pages/home/testimonials.css');
+
+/* Services */
+@import url('pages/services/services.css');
