@@ -44,9 +44,53 @@
     margin-bottom: calc(var(--space-40) * 1.25);
 }
 
+.hero--internal {
+    text-align: center;
+    padding-block: var(--space-12);
+    padding-inline: var(--space-4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.services-page .hero--internal {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/banners/banner-digital-wave-1.webp');
+}
+
+.works-page .hero--internal {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/banners/banner-digital-wave-2.webp');
+}
+
+.process-page .hero--internal {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/banners/banner-digital-wave-3.webp');
+}
+
+.about-page .hero--internal {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/banners/banner-digital-wave-4.webp');
+}
+
+.careers-page .hero--internal {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/banners/banner-digital-wave-4.webp');
+}
+
+.contact-page .hero--internal {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/banners/banner-digital-wave-3.webp');
+}
+
+.hero--internal .hero__title {
+    font-size: var(--font-size-title-md);
+    font-weight: var(--font-weight-title);
+    line-height: var(--line-height-heading);
+    margin-bottom: var(--space-2);
+}
+
 @media (min-width: 768px) {
     .home-page .hero::before {
         background-size: 150%;
+    }
+
+    .hero--internal {
+        padding-inline: var(--space-10);
     }
 }
 
@@ -66,5 +110,10 @@
         padding-block: var(--space-2);
         padding-inline: var(--space-3);
         margin-right: var(--space-1);
+    }
+
+    .hero--internal {
+        padding-block: var(--space-20);
+        padding-inline: var(--space-20);
     }
 }
