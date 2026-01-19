@@ -29,7 +29,7 @@
 }
 
 .faq__subtitle {
-    font-weight: var(--font-weight-title);
+    font-weight: var(--font-weight-medium);
     font-size: var(--font-size-title-sm);
     line-height: var(--line-height-heading);
     transition: color var(--motion-duration-fast) var(--motion-ease);

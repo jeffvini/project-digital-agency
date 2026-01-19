@@ -21,7 +21,7 @@
 
 .home-page .testimonials__subtitle {
     color: var(--color-text-accent-green-2);
-    font-weight: var(--font-weight-title);
+    font-weight: var(--font-weight-medium);
     font-size: var(--font-size-title-sm);
     line-height: var(--line-height-heading);
     margin-bottom: var(--space-5);
