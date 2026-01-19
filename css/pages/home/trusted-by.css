@@ -23,9 +23,9 @@
     justify-content: center;
     flex-wrap: wrap;
     padding-top: var(--space-16);
-    margin-inline: var(--space-4);
+    margin-inline: var(--space-8);
     margin-bottom: var(--space-10);
-    gap: var(--space-8);
+    gap: var(--space-10);
 }
 
 .home-page .trusted-companies__logo {
