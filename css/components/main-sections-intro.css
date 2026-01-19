@@ -43,6 +43,7 @@
 
 @media (min-width: 768px) {
     .home-page .our-services__intro, .home-page .benefits__intro, .home-page .testimonials__intro, .faq__intro {
+        padding-block: var(--space-16);
         padding-inline: var(--space-10);
     }
 }
