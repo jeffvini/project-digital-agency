@@ -54,8 +54,9 @@
     --font-size-8xl:  2.5rem;    /* 40px */
     --font-size-9xl:  2.625rem;  /* 42px */
     --font-size-10xl: 3rem;      /* 48px */
-    --font-size-11xl: 3.75rem;   /* 60px */
-    --font-size-12xl: 4.25rem;   /* 68px */
+    --font-size-11xl: 3.25rem;   /* 52px */
+    --font-size-12xl: 3.75rem;   /* 60px */
+    --font-size-13xl: 4.25rem;   /* 68px */
 
     /* --- SPACING: 4px Grid System --- */
     --space-1:  0.25rem;  /* 4px */
@@ -130,9 +131,9 @@
     --font-family-main: var(--font-family-barlow); /* Barlow */
 
     /* Font Size */
-    --font-size-display:        var(--font-size-8xl);    /* 40px */
-    --font-size-title-lg:       var(--font-size-6xl);    /* 34px */
-    --font-size-title-md:       var(--font-size-4xl);    /* 28px */
+    --font-size-display:        var(--font-size-10xl);   /* 48px */
+    --font-size-title-lg:       var(--font-size-7xl);    /* 38px */
+    --font-size-title-md:       var(--font-size-5xl);    /* 30px */
     --font-size-title-sm:       var(--font-size-xl);     /* 20px */
     --font-size-text-lg:        var(--font-size-lg);     /* 18px */
     --font-size-text-default:   var(--font-size-base);   /* 16px */
@@ -140,10 +141,11 @@
     --font-size-text-small:     var(--font-size-sm);     /* 14px */
 
     /* Font Weights */
-    --font-weight-title:   var(--font-weight-semibold);
-    --font-weight-body:    var(--font-weight-regular);
-    --font-weight-action:  var(--font-weight-medium);
-    --font-weight-form:    var(--font-weight-medium);
+    --font-weight-title:    var(--font-weight-semibold);
+    --font-weight-subtitle: var(--font-weight-medium);
+    --font-weight-body:     var(--font-weight-regular);
+    --font-weight-action:   var(--font-weight-medium);
+    --font-weight-form:     var(--font-weight-medium);
 
     /* Line Height */
     --line-height-tight:   1.2;
@@ -169,10 +171,10 @@
 @media (min-width: 768px) {
     :root {
         /* Font Size (Tablet) */
-        --font-size-display:      var(--font-size-10xl); /* 48px */
-        --font-size-title-lg:     var(--font-size-8xl);  /* 42px */
-        --font-size-title-md:     var(--font-size-7xl);  /* 38px */
-        --font-size-title-sm:     var(--font-size-3xl);  /* 24px */
+        --font-size-display:      var(--font-size-11xl); /* 52px */
+        --font-size-title-lg:     var(--font-size-8xl);  /* 40px */
+        --font-size-title-md:     var(--font-size-6xl);  /* 34px */
+        --font-size-title-sm:     var(--font-size-2xl);  /* 22px */
 
         /* Gutter */
         --space-container-gutter: var(--space-12);  /* 48px */
@@ -182,10 +184,10 @@
 @media (min-width: 1024px) {
     :root {
         /* Font Size (Desktop) */
-        --font-size-display:      var(--font-size-12xl); /* 68px */
-        --font-size-title-lg:     var(--font-size-11xl); /* 60px */
-        --font-size-title-md:     var(--font-size-10xl); /* 48px */
-        --font-size-title-sm:     var(--font-size-5xl);  /* 30px */
+        --font-size-display:      var(--font-size-12xl); /* 60px */
+        --font-size-title-lg:     var(--font-size-10xl); /* 48px */
+        --font-size-title-md:     var(--font-size-8xl);  /* 40px */
+        --font-size-title-sm:     var(--font-size-3xl);  /* 24px */
         --font-size-text-lg:      var(--font-size-xl);   /* 20px */
         --font-size-text-default: var(--font-size-lg);   /* 18px */
 
