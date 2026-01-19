@@ -141,10 +141,11 @@
     --font-size-text-small:     var(--font-size-sm);     /* 14px */
 
     /* Font Weights */
-    --font-weight-title:   var(--font-weight-semibold);
-    --font-weight-body:    var(--font-weight-regular);
-    --font-weight-action:  var(--font-weight-medium);
-    --font-weight-form:    var(--font-weight-medium);
+    --font-weight-title:    var(--font-weight-semibold);
+    --font-weight-subtitle: var(--font-weight-medium);
+    --font-weight-body:     var(--font-weight-regular);
+    --font-weight-action:   var(--font-weight-medium);
+    --font-weight-form:     var(--font-weight-medium);
 
     /* Line Height */
     --line-height-tight:   1.2;
