@@ -5,7 +5,7 @@
 
 .home-page .our-services__item {
     border-bottom: solid 1px var(--color-border-accent-grey);
-    padding-inline: var(--space-8);
+    padding-inline: var(--space-5);
     padding-block: var(--space-10);
 }
 
@@ -36,15 +36,15 @@
     margin-bottom: var(--space-8);
 }
 
-@media (min-width: 1024px) {
-    .home-page .our-services__list {
+@media (min-width: 768px) {
+     .home-page .our-services__list {
         flex-direction: row;
         flex-wrap: wrap;
     }
 
     .home-page .our-services__item {
         flex: 1 1 45%;
-        padding: var(--space-12);
+        padding: var(--space-10);
     }
 
     .home-page .our-services__item:nth-child(2) {

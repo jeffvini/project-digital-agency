@@ -5,7 +5,7 @@
 
 .home-page .benefits__item {
     border-bottom: solid 1px var(--color-border-accent-grey);
-    padding-inline: var(--space-8);
+    padding-inline: var(--space-5);
     padding-block: var(--space-10);
 }
 
@@ -32,7 +32,7 @@
     line-height: var(--line-height-heading);
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
     .home-page .benefits__list {
         flex-direction: row;
         flex-wrap: wrap;
@@ -40,9 +40,9 @@
 
     .home-page .benefits__item {
         flex: 1 1 45%;
-        padding: var(--space-12);
+        padding: var(--space-10);
     }
-    
+
     .home-page .benefits__item:nth-child(2) {
         border-left: solid 1px var(--color-border-accent-grey);
     }
