@@ -22,7 +22,7 @@
 
 .services-page .services__intro-list-mark {
     display: block;
-    width: max-content;
+    max-width: max-content;
     background-color: var(--color-background-accent-grey-2);
     border-radius: var(--radius-md);
     padding-block: var(--space-2);
