@@ -93,6 +93,7 @@
     }
 
     .hero--internal {
+        padding-block: var(--space-16);
         padding-inline: var(--space-10);
     }
 }
@@ -118,6 +119,6 @@
 
     .hero--internal {
         padding-block: var(--space-20);
-        padding-inline: var(--space-20);
+        padding-inline: calc(var(--space-20) * 1.5);
     }
 }
