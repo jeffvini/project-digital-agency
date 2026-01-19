@@ -17,17 +17,14 @@
 }
 
 @media (min-width: 768px) {
-    .final-cta__title, .final-cta__text {
-        margin-inline: var(--space-6);
+    .final-cta {
+        padding-inline: var(--space-10);
     }
 }
 
 @media (min-width: 1024px) {
     .final-cta {
         padding-block: var(--space-20);
-    }
-
-    .final-cta__title, .final-cta__text {
-        margin-inline: var(--space-20);
+        padding-inline: calc(var(--space-20) * 1.5);
     }
 }
