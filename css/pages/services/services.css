@@ -1,10 +1,10 @@
 .services-page .services {
-    padding-top: var(--space-8);
+    padding-top: var(--space-10);
 }
 
 .services-page .services__intro {
     border-bottom: solid 1px var(--color-border-accent-grey);
-    padding-inline: var(--space-4);
+    padding-inline: var(--space-5);
     padding-bottom: var(--space-10);
 }
 
@@ -44,7 +44,7 @@
     font-weight: var(--font-weight-subtitle);
     line-height: var(--line-height-heading);
     border-bottom: solid 1px var(--color-border-accent-grey);
-    padding-inline: var(--space-4);
+    padding-inline: var(--space-5);
     padding-block: var(--space-10);
 }
 
@@ -59,7 +59,7 @@
     gap: var(--space-4);
     flex: 1 1 45%;
     border-bottom: solid 1px var(--color-border-accent-grey);
-    padding: var(--space-4);
+    padding: var(--space-5);
 }
 
 .services-page .services__item-feat-service:nth-child(2) {
@@ -76,31 +76,28 @@
 }
 
 @media (min-width: 768px) {
-    .services-page .services__intro {
-        padding-inline: var(--space-6);
-    }
-
-    .services-page .services__subtitle {
-        text-align: left;
-        padding-inline: var(--space-6);
-    }
-
-    .services-page .services__item-feat-service {
-        padding: var(--space-6);
-    }
-}
-
-@media (min-width: 1024px) {
     .services-page .services {
         padding-top: var(--space-12);
     }
 
     .services-page .services__intro {
-        padding-inline: var(--space-8);
+        padding-inline: var(--space-10);
     }
 
     .services-page .services__subtitle {
-        padding-inline: var(--space-8);
+        text-align: left;
+        padding-inline: var(--space-10);
+        padding-block: var(--space-12);
+    }
+
+    .services-page .services__item-feat-service {
+        padding: var(--space-10);
+    }
+}
+
+@media (min-width: 1024px) {
+    .services-page .services {
+        padding-top: var(--space-16);
     }
 
     .services-page .services__list-feat-service {
@@ -109,7 +106,6 @@
 
     .services-page .services__item-feat-service {
         border-bottom: none;
-        padding: var(--space-8);
     }
 
     .services-page .services__item-feat-service:nth-child(3) {
