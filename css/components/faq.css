@@ -9,7 +9,7 @@
     break-inside: avoid; 
     width: 100%;
     border-bottom: solid 1px var(--color-border-accent-grey);
-    padding-inline: var(--space-8);
+    padding-inline: var(--space-5);
     padding-block: var(--space-10);
 }
 
@@ -43,14 +43,16 @@
     margin-top: var(--space-4);
 }
 
+@media (min-width: 768px) {
+    .faq__item {
+        padding: var(--space-10);
+    }
+}
+
 @media (min-width: 1024px) {
     .faq__list {
         column-count: 2; 
         column-rule: solid 1px var(--color-border-accent-grey);
-    }
-
-    .faq__item {
-        padding: var(--space-12);
     }
 
     .faq__item:first-child {
