@@ -42,17 +42,14 @@
 }
 
 @media (min-width: 768px) {
-    .home-page .our-services__text, .home-page .benefits__text, .home-page .testimonials__text, .faq__text {
-        margin-inline: var(--space-6);
+    .home-page .our-services__intro, .home-page .benefits__intro, .home-page .testimonials__intro, .faq__intro {
+        padding-inline: var(--space-10);
     }
 }
 
 @media (min-width: 1024px) {
     .home-page .our-services__intro, .home-page .benefits__intro, .home-page .testimonials__intro, .faq__intro {
         padding-block: var(--space-20);
-    }
-
-    .home-page .our-services__text, .home-page .benefits__text, .home-page .testimonials__text, .faq__text {
-        margin-inline: var(--space-20);
+        padding-inline: calc(var(--space-20) * 1.5);
     }
 }
