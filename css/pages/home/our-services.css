@@ -27,7 +27,7 @@
 }
 
 .home-page .our-services__subtitle {
-    font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-subtitle);
     font-size: var(--font-size-title-sm);
     line-height: var(--line-height-heading);
 }
