@@ -33,14 +33,16 @@ header .btn--cta {
     font-weight: var(--font-weight-action);
 }
 
+@media (min-width: 768px) {
+    .contact-form .btn--cta {
+        width: max-content;
+        padding-inline: var(--space-10);
+        margin-inline: auto;
+    }
+}
+
 @media (min-width: 1024px) {
     header .btn--cta {
         display: block;
-    }
-    
-    .contact-form .btn--cta {
-        width: max-content;
-        padding-inline: var(--space-8);
-        margin-inline: auto;
     }
 }
