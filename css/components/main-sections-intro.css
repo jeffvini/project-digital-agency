@@ -41,9 +41,40 @@
     margin-bottom: var(--space-2);
 }
 
+.services-page .services__intro, .works-page .works__intro, .process-page .process__intro, .careers-page .careers__intro {
+    border-bottom: solid 1px var(--color-border-accent-grey);
+    padding-inline: var(--space-5);
+    padding-bottom: var(--space-10);
+}
+
+.services-page .services__title, .works-page .works__title, .process-page .process__title, .careers-page .careers__title {
+    font-size: var(--font-size-title-md);
+    font-weight: var(--font-weight-title);
+    line-height: var(--line-height-heading);
+    margin-bottom: var(--space-2);
+}
+
+.services-page .services__intro-list, .works-page .works__intro-list, .process-page .process__intro-list, .careers-page .careers__intro-list {
+    color: var(--color-text-accent-white);
+    margin-top: var(--space-10);
+}
+
+.services-page .services__intro-list-mark, .works-page .works__intro-list-mark, .process-page .process__intro-list-mark, .careers-page .careers__intro-list-mark {
+    display: block;
+    max-width: max-content;
+    background-color: var(--color-background-accent-grey-2);
+    border-radius: var(--radius-md);
+    padding-block: var(--space-2);
+    padding-inline: var(--space-3);
+}
+
 @media (min-width: 768px) {
     .home-page .our-services__intro, .home-page .benefits__intro, .home-page .testimonials__intro, .faq__intro {
         padding-block: var(--space-16);
+        padding-inline: var(--space-10);
+    }
+
+    .services-page .services__intro, .works-page .works__intro, .process-page .process__intro, .careers-page .careers__intro {
         padding-inline: var(--space-10);
     }
 }

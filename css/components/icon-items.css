@@ -69,6 +69,10 @@
     -webkit-mask-image: url('../../images/icons/plus.svg'); 
 }
 
+.works-page .works__list .btn__icon {
+    width: var(--space-6);
+}
+
 .faq__article details[open] .icon-wrapper__icon {
     background-color: var(--color-background-accent-green-1);
     transform: rotate(45deg);
