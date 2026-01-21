@@ -19,6 +19,24 @@
     padding-inline: var(--space-5);
 }
 
+.works-page .project__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: var(--space-5);
+    margin-bottom: var(--space-4);
+}
+
+.works-page .project__client-name {
+    font-size: var(--font-size-text-lg);
+    font-weight: var(--font-weight-subtitle);
+    line-height: var(--line-height-heading);
+}
+
+.works-page .project__text {
+    padding-inline: var(--space-5);
+}
+
 @media (min-width: 768px) {
     .works-page .works {
         padding-top: var(--space-12);
@@ -31,6 +49,14 @@
 
     .works-page .project__img {
         padding-block: var(--space-8);
+        padding-inline: var(--space-10);
+    }
+
+    .works-page .project__info {
+        padding-inline: var(--space-10);
+    }
+    
+    .works-page .project__text {
         padding-inline: var(--space-10);
     }
 }
