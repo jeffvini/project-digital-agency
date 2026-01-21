@@ -2,9 +2,24 @@
     padding-top: var(--space-10);
 }
 
+.works-page .project__title {
+    color: var(--color-grey-200);
+    font-size: var(--font-size-title-sm);
+    font-weight: var(--font-weight-subtitle);
+    line-height: var(--line-height-heading);
+    border-bottom: solid 1px var(--color-border-accent-grey);
+    padding-inline: var(--space-5);
+    padding-block: var(--space-8);
+}
+
 @media (min-width: 768px) {
     .works-page .works {
         padding-top: var(--space-12);
+    }
+
+    .works-page .project__title {
+        padding-inline: var(--space-10);
+        padding-block: var(--space-10);
     }
 }
 
