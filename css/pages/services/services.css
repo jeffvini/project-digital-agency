@@ -22,8 +22,8 @@
 }
 
 .services-page .service__list-feat {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .services-page .service__item-feat {
@@ -40,12 +40,7 @@
 
 @media (min-width: 375px) {
     .services-page .service__list-feat {
-        flex-wrap: wrap;
-        flex-direction: row;
-    }
-
-    .services-page .service__item-feat {
-        flex: 1 1 45%;
+        grid-template-columns: 1fr 1fr;
     }
 
     .services-page .service__item-feat:nth-child(even) {
@@ -79,7 +74,7 @@
     }
 
     .services-page .service__list-feat {
-        flex-wrap: nowrap;
+        grid-template-columns: repeat(4, 1fr);
     }
 
     .services-page .service__item-feat {
