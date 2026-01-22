@@ -13,12 +13,12 @@
     background-color: var(--color-background-hover-grey-2);
 }
 
-.home-page .hero .btn--secondary {
+.hero--main .btn--secondary {
     border: solid 1px var(--color-border-accent-grey);
     background-color: var(--color-background-accent-grey-1);
 }
 
-.home-page .hero .btn--secondary:hover {
+.hero--main .btn--secondary:hover {
     background-color: var(--color-background-hover-grey-1);
 }
 
