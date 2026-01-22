@@ -10,7 +10,7 @@
     border: none;
 }
 
-.services-page .services__subtitle {
+.services-page .service__title {
     color: var(--color-grey-200);
     text-align: center;
     font-size: var(--font-size-title-sm);
@@ -21,12 +21,12 @@
     padding-block: var(--space-10);
 }
 
-.services-page .services__list-feat-service {
+.services-page .service__list-feat {
     display: flex;
     flex-wrap: wrap;
 }
 
-.services-page .services__item-feat-service {
+.services-page .service__item-feat {
     display: flex;
     flex-direction: column;
     gap: var(--space-4);
@@ -35,15 +35,15 @@
     padding: var(--space-5);
 }
 
-.services-page .services__item-feat-service:nth-child(2) {
+.services-page .service__item-feat:nth-child(2) {
     border-left: solid 1px var(--color-border-accent-grey);
 }
 
-.services-page .services__item-feat-service:nth-child(3) {
+.services-page .service__item-feat:nth-child(3) {
     border: none;
 }
 
-.services-page .services__item-feat-service:last-child {
+.services-page .service__item-feat:last-child {
     border-left: solid 1px var(--color-border-accent-grey);
     border-bottom: none;
 }
@@ -53,13 +53,13 @@
         padding-top: var(--space-12);
     }
 
-    .services-page .services__subtitle {
+    .services-page .service__title {
         text-align: left;
         padding-inline: var(--space-10);
         padding-block: var(--space-12);
     }
 
-    .services-page .services__item-feat-service {
+    .services-page .service__item-feat {
         padding: var(--space-10);
     }
 }
@@ -69,15 +69,15 @@
         padding-top: var(--space-16);
     }
 
-    .services-page .services__list-feat-service {
+    .services-page .service__list-feat {
         flex-wrap: nowrap;
     }
 
-    .services-page .services__item-feat-service {
+    .services-page .service__item-feat {
         border-bottom: none;
     }
 
-    .services-page .services__item-feat-service:nth-child(3) {
+    .services-page .service__item-feat:nth-child(3) {
         border-left: solid 1px var(--color-border-accent-grey);
     }
 }
