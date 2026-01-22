@@ -13,20 +13,20 @@
     border: none;
 }
 
-.home-page .benefits__article {
+.home-page .benefit {
     display: flex;
     flex-direction: column;
     height: 100%;
 }
 
-.home-page .benefits__header-article {
+.home-page .benefit__header {
     display: flex;
     align-items: center;
     gap: var(--space-4);
     margin-bottom: var(--space-5);
 }
 
-.home-page .benefits__subtitle {
+.home-page .benefit__title {
     font-weight: var(--font-weight-subtitle);
     font-size: var(--font-size-title-sm);
     line-height: var(--line-height-heading);

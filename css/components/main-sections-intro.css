@@ -1,4 +1,4 @@
-.home-page .our-services__intro, .home-page .benefits__intro, .home-page .testimonials__intro, .faq__intro {
+.home-page .our-services__intro, .home-page .benefits__intro, .home-page .testimonials__intro, .faqs__intro {
     text-align: center;
     border-bottom: solid 1px var(--color-border-accent-grey);
     padding-block: var(--space-12);
@@ -20,21 +20,21 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/banners/banner-digital-wave-3.webp');
 }
 
-.faq__intro {
+.faqs__intro {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/banners/banner-digital-wave-4.webp');
 }
 
-.faq__contact-link {
+.faqs__contact-link {
     color: var(--color-text-accent-green-1);
     text-decoration: underline;
     transition: color var(--motion-duration-fast) var(--motion-ease);
 }
 
-.faq__contact-link:hover {
+.faqs__contact-link:hover {
     color: var(--color-text-secondary);
 }
 
-.home-page .our-services__title, .home-page .benefits__title, .home-page .testimonials__title, .faq__title {
+.home-page .our-services__title, .home-page .benefits__title, .home-page .testimonials__title, .faqs__title {
     font-size: var(--font-size-title-md);
     font-weight: var(--font-weight-title);
     line-height: var(--line-height-heading);
@@ -69,7 +69,7 @@
 }
 
 @media (min-width: 768px) {
-    .home-page .our-services__intro, .home-page .benefits__intro, .home-page .testimonials__intro, .faq__intro {
+    .home-page .our-services__intro, .home-page .benefits__intro, .home-page .testimonials__intro, .faqs__intro {
         padding-block: var(--space-16);
         padding-inline: var(--space-10);
     }
@@ -80,7 +80,7 @@
 }
 
 @media (min-width: 1024px) {
-    .home-page .our-services__intro, .home-page .benefits__intro, .home-page .testimonials__intro, .faq__intro {
+    .home-page .our-services__intro, .home-page .benefits__intro, .home-page .testimonials__intro, .faqs__intro {
         padding-block: var(--space-20);
         padding-inline: calc(var(--space-20) * 1.5);
     }
