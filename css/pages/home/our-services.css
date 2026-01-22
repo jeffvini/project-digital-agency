@@ -13,26 +13,26 @@
     border: none;
 }
 
-.home-page .our-services__article {
+.home-page .our-service {
     display: flex;
     flex-direction: column;
     height: 100%;
 }
 
-.home-page .our-services__header-article {
+.home-page .our-service__header {
     display: flex;
     align-items: center;
     gap: var(--space-4);
     margin-bottom: var(--space-5);
 }
 
-.home-page .our-services__subtitle {
+.home-page .our-service__title {
     font-weight: var(--font-weight-subtitle);
     font-size: var(--font-size-title-sm);
     line-height: var(--line-height-heading);
 }
 
-.home-page .our-services__description {
+.home-page .our-service__description {
     margin-bottom: var(--space-8);
 }
 

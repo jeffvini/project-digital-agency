@@ -1,4 +1,4 @@
-.home-page .our-services__intro, .home-page .benefits__intro, .home-page .testimonials__intro, .faq__intro {
+.home-page .section-intro, .section-intro--faqs {
     text-align: center;
     border-bottom: solid 1px var(--color-border-accent-grey);
     padding-block: var(--space-12);
@@ -8,58 +8,58 @@
     background-position: center;
 }
 
-.home-page .our-services__intro {
+.section-intro--home-services {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/banners/banner-digital-wave-1.webp');
 }
 
-.home-page .benefits__intro {
+.section-intro--home-benefits {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/banners/banner-digital-wave-2.webp');
 }
 
-.home-page .testimonials__intro {
+.section-intro--home-testimonials {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/banners/banner-digital-wave-3.webp');
 }
 
-.faq__intro {
+.section-intro--faqs {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/banners/banner-digital-wave-4.webp');
 }
 
-.faq__contact-link {
+.section-intro--faqs .section-intro__contact-link {
     color: var(--color-text-accent-green-1);
     text-decoration: underline;
     transition: color var(--motion-duration-fast) var(--motion-ease);
 }
 
-.faq__contact-link:hover {
+.section-intro--faqs .section-intro__contact-link:hover {
     color: var(--color-text-secondary);
 }
 
-.home-page .our-services__title, .home-page .benefits__title, .home-page .testimonials__title, .faq__title {
+.home-page .section-intro__title, .section-intro--faqs .section-intro__title {
     font-size: var(--font-size-title-md);
     font-weight: var(--font-weight-title);
     line-height: var(--line-height-heading);
     margin-bottom: var(--space-2);
 }
 
-.services-page .services__intro, .works-page .works__intro, .process-page .process__intro, .careers-page .careers__intro {
+:is(.services-page, .works-page, .process-page, .careers-page) .section-intro {
     border-bottom: solid 1px var(--color-border-accent-grey);
     padding-inline: var(--space-5);
     padding-bottom: var(--space-10);
 }
 
-.services-page .services__title, .works-page .works__title, .process-page .process__title, .careers-page .careers__title {
+:is(.services-page, .works-page, .process-page, .careers-page) .section-intro__title {
     font-size: var(--font-size-title-md);
     font-weight: var(--font-weight-title);
     line-height: var(--line-height-heading);
     margin-bottom: var(--space-2);
 }
 
-.services-page .services__intro-list, .works-page .works__intro-list, .process-page .process__intro-list, .careers-page .careers__intro-list {
+:is(.services-page, .works-page, .process-page, .careers-page) .section-intro__intro-list {
     color: var(--color-text-accent-white);
     margin-top: var(--space-10);
 }
 
-.services-page .services__intro-list-mark, .works-page .works__intro-list-mark, .process-page .process__intro-list-mark, .careers-page .careers__intro-list-mark {
+:is(.services-page, .works-page, .process-page, .careers-page) .section-intro__intro-list-mark {
     display: block;
     max-width: max-content;
     background-color: var(--color-background-accent-grey-2);
@@ -69,18 +69,18 @@
 }
 
 @media (min-width: 768px) {
-    .home-page .our-services__intro, .home-page .benefits__intro, .home-page .testimonials__intro, .faq__intro {
+    .home-page .section-intro, .section-intro--faqs {
         padding-block: var(--space-16);
         padding-inline: var(--space-10);
     }
 
-    .services-page .services__intro, .works-page .works__intro, .process-page .process__intro, .careers-page .careers__intro {
+    :is(.services-page, .works-page, .process-page, .careers-page) .section-intro {
         padding-inline: var(--space-10);
     }
 }
 
 @media (min-width: 1024px) {
-    .home-page .our-services__intro, .home-page .benefits__intro, .home-page .testimonials__intro, .faq__intro {
+    .home-page .section-intro, .section-intro--faqs {
         padding-block: var(--space-20);
         padding-inline: calc(var(--space-20) * 1.5);
     }

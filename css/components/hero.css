@@ -1,4 +1,4 @@
-.home-page .hero {
+.hero--main {
     position: relative;
     z-index: var(--layer-z-base);
     display: flex;
@@ -8,7 +8,7 @@
     padding-inline: var(--space-4);
 }
 
-.home-page .hero::before {
+.hero--main::before {
     content: "";
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
@@ -20,14 +20,14 @@
     z-index: var(--layer-z-hide);
 }
 
-.home-page .hero__display {
+.hero--main .hero__display {
     font-weight: var(--font-weight-title);
     font-size: var(--font-size-display);
     line-height: var(--line-height-tight);
     margin-block: var(--space-20) var(--space-8);
 }
 
-.home-page .hero__audience-text {
+.hero--main .hero__audience-text {
     color: var(--color-grey-200);
     background-color: var(--color-background-primary);
     border: solid 1px var(--color-border-accent-grey);
@@ -37,7 +37,7 @@
     margin-bottom: var(--space-12);
 }
 
-.home-page .hero__actions {
+.hero--main .hero__actions {
     display: flex;
     gap: var(--space-4);
     margin-bottom: calc(var(--space-40) * 1.25);
@@ -84,11 +84,11 @@
 }
 
 @media (min-width: 768px) {
-    .home-page .hero {
+    .hero--main {
         padding-inline: var(--space-10);
     }
 
-    .home-page .hero::before {
+    .hero--main::before {
         background-size: 150%;
     }
 
@@ -99,16 +99,16 @@
 }
 
 @media (min-width: 1024px) {
-    .home-page .hero::before {
+    .hero--main::before {
         background-size: 120%;
     }
 
-    .home-page .hero__display {
+    .hero--main .hero__display {
         margin-top: calc(var(--space-20) * 1.4);
         margin-inline: var(--space-20);
     }
     
-    .home-page .hero__audience-item {
+    .hero--main .hero__audience-item {
         color: var(--color-text-accent-white);
         background-color: var(--color-background-accent-grey-2);
         border-radius: var(--radius-md);
