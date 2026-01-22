@@ -1,4 +1,4 @@
-.home-page .our-services__intro, .home-page .benefits__intro, .home-page .testimonials__intro, .faqs__intro {
+.home-page .section-intro, .section-intro--faqs {
     text-align: center;
     border-bottom: solid 1px var(--color-border-accent-grey);
     padding-block: var(--space-12);
@@ -8,33 +8,33 @@
     background-position: center;
 }
 
-.home-page .our-services__intro {
+.section-intro--home-services {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/banners/banner-digital-wave-1.webp');
 }
 
-.home-page .benefits__intro {
+.section-intro--home-benefits {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/banners/banner-digital-wave-2.webp');
 }
 
-.home-page .testimonials__intro {
+.section-intro--home-testimonials {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/banners/banner-digital-wave-3.webp');
 }
 
-.faqs__intro {
+.section-intro--faqs {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/banners/banner-digital-wave-4.webp');
 }
 
-.faqs__contact-link {
+.section-intro--faqs .section-intro__contact-link {
     color: var(--color-text-accent-green-1);
     text-decoration: underline;
     transition: color var(--motion-duration-fast) var(--motion-ease);
 }
 
-.faqs__contact-link:hover {
+.section-intro--faqs .section-intro__contact-link:hover {
     color: var(--color-text-secondary);
 }
 
-.home-page .our-services__title, .home-page .benefits__title, .home-page .testimonials__title, .faqs__title {
+.home-page .section-intro__title, .section-intro--faqs .section-intro__title {
     font-size: var(--font-size-title-md);
     font-weight: var(--font-weight-title);
     line-height: var(--line-height-heading);
@@ -69,7 +69,7 @@
 }
 
 @media (min-width: 768px) {
-    .home-page .our-services__intro, .home-page .benefits__intro, .home-page .testimonials__intro, .faqs__intro {
+    .home-page .section-intro, .section-intro--faqs {
         padding-block: var(--space-16);
         padding-inline: var(--space-10);
     }
@@ -80,7 +80,7 @@
 }
 
 @media (min-width: 1024px) {
-    .home-page .our-services__intro, .home-page .benefits__intro, .home-page .testimonials__intro, .faqs__intro {
+    .home-page .section-intro, .section-intro--faqs {
         padding-block: var(--space-20);
         padding-inline: calc(var(--space-20) * 1.5);
     }
