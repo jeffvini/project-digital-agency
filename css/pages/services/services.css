@@ -35,16 +35,11 @@
     padding: var(--space-5);
 }
 
-.services-page .service__item-feat:nth-child(2) {
+.services-page .service__item-feat:nth-child(even) {
     border-left: solid 1px var(--color-border-accent-grey);
 }
 
-.services-page .service__item-feat:nth-child(3) {
-    border: none;
-}
-
-.services-page .service__item-feat:last-child {
-    border-left: solid 1px var(--color-border-accent-grey);
+.services-page .service__item-feat:nth-last-child(-n + 2) {
     border-bottom: none;
 }
 
