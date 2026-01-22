@@ -72,19 +72,11 @@
         flex: 1 1 45%;
     }
 
-    .home-page .testimonials__item:nth-child(2) {
+    .home-page .testimonials__item:nth-child(even) {
         border-left: solid 1px var(--color-border-accent-grey);
     }
 
-    .home-page .testimonials__item:nth-child(4) {
-        border-left: solid 1px var(--color-border-accent-grey);
-    }
-
-    .home-page .testimonials__item:nth-child(5) {
-        border: none;
-    }
-
-    .home-page .testimonials__item:nth-child(6) {
-        border-left: solid 1px var(--color-border-accent-grey);
+    .home-page .testimonials__item:nth-last-child(2) {
+        border-bottom: none;
     }
 }

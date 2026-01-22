@@ -10,7 +10,7 @@
 }
 
 .home-page .our-services__item:last-child {
-    border: none;
+    border-bottom: none;
 }
 
 .home-page .our-service {

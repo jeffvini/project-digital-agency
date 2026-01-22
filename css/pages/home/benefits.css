@@ -10,7 +10,7 @@
 }
 
 .home-page .benefits__item:last-child {
-    border: none;
+    border-bottom: none;
 }
 
 .home-page .benefit {
@@ -43,15 +43,11 @@
         padding: var(--space-10);
     }
 
-    .home-page .benefits__item:nth-child(2) {
+    .home-page .benefits__item:nth-child(even) {
         border-left: solid 1px var(--color-border-accent-grey);
     }
 
-    .home-page .benefits__item:nth-child(3) {
-        border: none;
-    }
-
-    .home-page .benefits__item:last-child {
-        border-left: solid 1px var(--color-border-accent-grey);
+    .home-page .benefits__item:nth-last-child(2) {
+        border-bottom: none;
     }
 }
