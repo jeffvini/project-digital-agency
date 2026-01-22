@@ -3,11 +3,12 @@
 }
 
 .works-page .works__list {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .works-page .works__item {
+    display: grid;
     border-bottom: solid 1px var(--color-border-accent-grey);
     padding-bottom: var(--space-8);
 }
@@ -17,8 +18,7 @@
 }
 
 .works-page .project {
-    display: flex;
-    flex-direction: column;
+    display: grid;
 }
 
 .works-page .project__title {
@@ -62,13 +62,11 @@
     }
 
     .works-page .works__list {
-        display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto auto auto; 
     }
 
     .works-page .works__item {
-        display: grid;
         grid-row: span 4; 
         grid-template-rows: subgrid;
         padding-bottom: var(--space-10);
@@ -83,7 +81,6 @@
     }
 
     .works-page .project {
-        display: grid;
         grid-template-rows: subgrid;
         grid-row: span 4;
     }
