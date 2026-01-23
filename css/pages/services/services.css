@@ -7,7 +7,7 @@
 }
 
 .services-page .services__item:last-child {
-    border: none;
+    border-bottom: none;
 }
 
 .services-page .service__title {
