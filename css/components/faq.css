@@ -14,7 +14,7 @@
 }
 
 .faqs__item:last-child {
-    border: none;
+    border-bottom: none;
 }
 
 .faq__question {
@@ -44,29 +44,22 @@
 }
 
 @media (min-width: 768px) {
-    .faqs__item {
-        padding: var(--space-10);
-    }
-}
-
-@media (min-width: 1024px) {
     .faqs__list {
         column-count: 2; 
         column-rule: solid 1px var(--color-border-accent-grey);
     }
 
-    .faqs__item:first-child {
+    .faqs__item {
+        padding: var(--space-10);
+    }
+
+    .faqs__item:first-child, .faqs__item:nth-child(3) {
         border-top: solid 1px var(--color-border-accent-grey);
         margin-top: var(--space-12);
     }
 
     .faqs__item:nth-child(2) {
         margin-bottom: var(--space-12);
-    }
-
-    .faqs__item:nth-child(3) {
-        border-top: solid 1px var(--color-border-accent-grey);
-        margin-top: var(--space-12);
     }
 
     .faqs__item:last-child {

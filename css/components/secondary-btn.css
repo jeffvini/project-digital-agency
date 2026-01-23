@@ -22,10 +22,6 @@
     background-color: var(--color-background-hover-grey-1);
 }
 
-.home-page .our-services .btn--secondary {
-    margin-top: auto;
-}
-
 .home-page .testimonials .btn--secondary {
     display: none;
     white-space: nowrap;
