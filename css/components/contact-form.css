@@ -7,8 +7,8 @@
 }
 
 .contact-form__container {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
     gap: var(--space-6);
 }
 
@@ -31,7 +31,6 @@
 }
 
 .contact-form__input[name="message"] {
-    min-width: 100%;
     resize: vertical;
 }
 
@@ -43,8 +42,7 @@
     }
 
     .contact-form__container {
-        flex-direction: row;
-        flex-wrap: wrap;
+        grid-template-columns: 1fr 1fr;
         gap: var(--space-8);
     }
 
@@ -52,12 +50,8 @@
         gap: var(--space-3);
     }
 
-    .contact-form__field:has(.contact-form__label[for="name"]), .contact-form__field:has(.contact-form__label[for="email"]) {
-        flex: 1 1 45%;
-    }
-
     .contact-form__field:has(.contact-form__label[for="message"]) {
-        flex-basis: 100%;
+        grid-column: span 2;
     }
 }
 
