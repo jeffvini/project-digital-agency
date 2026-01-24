@@ -18,6 +18,28 @@
     border-bottom: none;
 }
 
+.process-page .process__step-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    margin-bottom: var(--space-5);
+}
+
+.process-page .process__step-number {
+    display: block;
+    color: var(--color-text-accent-green-2);
+    font-size: calc(var(--font-size-title-lg) * 2.3);
+    font-weight: var(--font-weight-semibold);
+    line-height: 1;
+}
+
+.process-page .process__step-title {
+    color: var(--color-grey-200);
+    font-size: var(--font-size-title-sm);
+    font-weight: var(--font-weight-subtitle);
+    line-height: var(--line-height-heading);
+}
+
 @media (min-width: 768px) {
     .process-page .process {
         padding-top: var(--space-12);
