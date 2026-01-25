@@ -25,6 +25,48 @@
     border-bottom: solid 1px var(--color-border-accent-grey);
 }
 
+.about-page .about-story__list {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.about-page .about-story__milestone {
+    display: grid;
+    padding-inline: var(--space-5);
+    padding-block: var(--space-8);
+    border-bottom: solid 1px var(--color-border-accent-grey);
+}
+
+.about-page .about-story__milestone:last-child {
+    border-bottom: none;
+}
+
+.about-page .about-story__milestone-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    margin-bottom: var(--space-5);
+}
+
+.about-page .about-story__milestone-number {
+    display: block;
+    color: var(--color-text-accent-green-2);
+    font-size: calc(var(--font-size-title-lg) * 2.3);
+    font-weight: var(--font-weight-semibold);
+    line-height: 1;
+}
+
+.about-page .about-story__milestone-title {
+    color: var(--color-text-accent-green-2);
+    font-size: var(--font-size-title-sm);
+    font-weight: var(--font-weight-subtitle);
+    line-height: var(--line-height-heading);
+}
+
+.about-page .about-story__milestone-text {
+    color: var(--color-grey-200);
+}
+
 @media (min-width: 768px) {
     .about-page :is(.about-intro, .about-story) {
         padding-top: var(--space-12);
@@ -47,6 +89,25 @@
     .about-page .about-story__title {
         padding-inline: var(--space-10);
         padding-bottom: var(--space-12);
+    }
+
+    .about-page .about-story__list {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .about-page .about-story__milestone {
+        grid-template-rows: subgrid;
+        grid-row: span 2;
+        padding: var(--space-10);
+    }
+
+    .about-page .about-story__milestone:nth-child(even) {
+        border-left: solid 1px var(--color-border-accent-grey);
+    }
+
+    .about-page .about-story__milestone:nth-last-child(2) {
+        border-bottom: none;
     }
 }
 
