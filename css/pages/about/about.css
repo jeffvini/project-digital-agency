@@ -1,0 +1,15 @@
+.about-page :is(.about-intro, .about-story) {
+    padding-top: var(--space-10);
+}
+
+@media (min-width: 768px) {
+    .about-page :is(.about-intro, .about-story) {
+        padding-top: var(--space-12);
+    }
+}
+
+@media (min-width: 1024px) {
+    .about-page :is(.about-intro, .about-story) {
+        padding-top: var(--space-16);
+    }
+}
