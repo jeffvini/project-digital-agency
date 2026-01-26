@@ -45,7 +45,7 @@
     -webkit-mask-image: url('../../images/icons/x-mark.svg');
 }
 
-.icon-wrapper--social, .icon-wrapper--services, .icon-wrapper--benefits, .icon-wrapper--feat-service {
+.icon-wrapper--social, .icon-wrapper--services, .icon-wrapper--benefits, .icon-wrapper--feat-service, .icon-wrapper--job-opening {
     width: max-content;
     padding: var(--space-3);
     border-radius: var(--radius-md);
@@ -69,7 +69,7 @@
     -webkit-mask-image: url('../../images/icons/plus.svg'); 
 }
 
-.works-page .works__list .btn__icon {
+.works-page .works__list .btn__icon, .icon-wrapper--job-opening .icon-wrapper__icon {
     width: var(--space-6);
 }
 
