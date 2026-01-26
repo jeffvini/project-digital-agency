@@ -38,6 +38,50 @@
     color: var(--color-grey-200);
 }
 
+.careers-page .job-openings__title {
+    color: var(--color-grey-200);
+    font-size: var(--font-size-title-sm);
+    font-weight: var(--font-weight-subtitle);
+    line-height: var(--line-height-heading);
+    text-align: center;
+    padding-inline: var(--space-5);
+    padding-block: var(--space-8);
+    border-bottom: solid 1px var(--color-border-accent-grey);
+}
+
+.careers-page .job-openings__list {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.careers-page .job-openings__opening {
+    display: grid;
+    padding-inline: var(--space-5);
+    padding-block: var(--space-8);
+    border-bottom: solid 1px var(--color-border-accent-grey);
+}
+
+.careers-page .careers-openings__job:last-child .job-openings__opening:last-child {
+   border-bottom: none;
+}
+
+.careers-page .job-openings__opening-header {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+    margin-bottom: var(--space-2);
+}
+
+.careers-page .job-openings__opening-title {
+    font-size: var(--font-size-text-lg);
+    font-weight: var(--font-weight-subtitle);
+    line-height: var(--line-height-heading);
+}
+
+.careers-page .job-openings__opening-text {
+    margin-bottom: var(--space-8);
+}
+
 @media (min-width: 768px) {
     .careers-page :is(.careers-benefits, .careers-openings) {
         padding-top: var(--space-12);
@@ -66,6 +110,30 @@
         grid-row: span 2;
         grid-template-rows: subgrid;
     }
+
+    .careers-page .job-openings__title {
+        text-align: left;
+        padding: var(--space-10);
+    }
+
+    .careers-page .job-openings__list {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+    }
+
+    .careers-page .job-openings__opening {
+        grid-row: span 3;
+        grid-template-rows: subgrid;
+        padding: var(--space-10);
+    }
+
+    .careers-page .job-openings__opening:nth-child(2) {
+        border-left: solid 1px var(--color-border-accent-grey);
+    }
+
+    .careers-page .job-openings__opening:last-child {
+        grid-column: span 2;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -75,5 +143,20 @@
 
     .careers-page .careers-benefits__benefit {
         padding-block: var(--space-12);
+    }
+}
+
+@media (min-width: 1280px) {
+    .careers-page .job-openings__list {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .careers-page .careers-openings__job:last-child :is(.job-openings__opening:first-child, .job-openings__opening:nth-child(2)) {
+        border-bottom: none;
+    }
+
+    .careers-page .job-openings__opening:last-child {
+        grid-column: span 1;
+        border-left: solid 1px var(--color-border-accent-grey);
     }
 }
