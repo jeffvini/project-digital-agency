@@ -1,0 +1,15 @@
+.careers-page :is(.careers-benefits, .careers-openings) {
+    padding-top: var(--space-10);
+}
+
+@media (min-width: 768px) {
+    .careers-page :is(.careers-benefits, .careers-openings) {
+        padding-top: var(--space-12);
+    }
+}
+
+@media (min-width: 1024px) {
+    .careers-page :is(.careers-benefits, .careers-openings) {
+        padding-top: var(--space-16);
+    }
+}
