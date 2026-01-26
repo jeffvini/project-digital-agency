@@ -2,14 +2,78 @@
     padding-top: var(--space-10);
 }
 
+.careers-page .careers-benefits__list {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.careers-page .careers-benefits__benefit {
+    display: grid;
+    padding-inline: var(--space-5);
+    padding-block: var(--space-8);
+    border-bottom: solid 1px var(--color-border-accent-grey);
+}
+
+.careers-page .careers-benefits__benefit:last-child {
+    border-bottom: none;
+}
+
+.careers-page .benefit {
+    display: grid;
+}
+
+.careers-page .benefit__title {
+    display: flex;
+    align-items: center;
+    color: var(--color-text-accent-green-2);
+    font-size: var(--font-size-title-sm);
+    font-weight: var(--font-weight-subtitle);
+    line-height: var(--line-height-heading);
+    padding-bottom: var(--space-6);
+    margin-bottom: var(--space-5);
+    border-bottom: solid 1px var(--color-border-accent-grey);
+}
+
+.careers-page .benefit__text {
+    color: var(--color-grey-200);
+}
+
 @media (min-width: 768px) {
     .careers-page :is(.careers-benefits, .careers-openings) {
         padding-top: var(--space-12);
+    }
+
+    .careers-page .careers-benefits__list {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .careers-page .careers-benefits__benefit {
+        grid-row: span 2;
+        grid-template-rows: subgrid;
+        padding: var(--space-10);
+    }
+
+    .careers-page .careers-benefits__benefit:nth-child(even) {
+        border-left: solid 1px var(--color-border-accent-grey);
+    }
+
+    .careers-page .careers-benefits__benefit:nth-last-child(2) {
+        border-bottom: none;
+    }
+
+    .careers-page .benefit {
+        grid-row: span 2;
+        grid-template-rows: subgrid;
     }
 }
 
 @media (min-width: 1024px) {
     .careers-page :is(.careers-benefits, .careers-openings) {
         padding-top: var(--space-16);
+    }
+
+    .careers-page .careers-benefits__benefit {
+        padding-block: var(--space-12);
     }
 }
