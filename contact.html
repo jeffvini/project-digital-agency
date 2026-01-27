@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | SquareUp</title>
+    <link rel="icon" type="image/svg+xml" href="images/icons/favicon.svg">
+    <link rel="alternate icon" type="image/x-icon" href="images/icons/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="contact-page">
+    <div class="app-wrapper">
+        <header>
+            <div class="container">
+                <img class="agency-logo agency-logo--header" src="images/logos/logo-agency-sm.svg" alt="SquareUp agency logo" loading="lazy">
+                <nav class="navbar navbar--main" aria-label="Desktop menu navigation links to site pages">
+                    <ul class="navbar__list">
+                        <li class="navbar__item"><a href="index.html" class="navbar__link">Home</a></li>
+                        <li class="navbar__item"><a href="services.html" class="navbar__link">Services</a></li>
+                        <li class="navbar__item"><a href="works.html" class="navbar__link">Work</a></li>
+                        <li class="navbar__item"><a href="process.html" class="navbar__link">Process</a></li>
+                        <li class="navbar__item"><a href="about.html" class="navbar__link">About</a></li>
+                        <li class="navbar__item"><a href="careers.html" class="navbar__link">Careers</a></li>
+                    </ul>
+                </nav>
+                <a href="#contact-form" class="btn btn--cta" aria-label="Contact SquareUp to start a project">Contact Us</a>
+                <button type="button" class="header__hamburger js-open-menu" aria-label="Open menu mobile" aria-controls="drawer" aria-expanded="false">
+                    <div class="icon-wrapper icon-wrapper--hamburguer"><span class="icon-wrapper__icon"></span></div>
+                </button>  
+            </div>
+        </header>
+
+        <dialog class="drawer js-drawer" id="drawer" aria-label="Mobile navigation menu">
+            <div class="drawer__wrapper">
+                <div class="drawer__panel-top">
+                    <img class="agency-logo agency-logo--drawer" src="images/logos/logo-agency-sm.svg" alt="SquareUp agency logo" loading="lazy">
+                    <button type="button" class="drawer__close-btn js-close-menu" aria-label="Close menu mobile">
+                        <div class="icon-wrapper icon-wrapper--close-drawer"><span class="icon-wrapper__icon"></span></div>
+                    </button>
+                </div>
+
+                <div class="drawer__content">
+                    <nav class="navbar navbar--mobile" aria-label="Mobile/Tablet menu navigation links to site pages">
+                        <ul class="navbar__list">
+                            <li class="navbar__item"><a href="index.html" class="navbar__link">Home</a></li>
+                            <li class="navbar__item"><a href="services.html" class="navbar__link">Services</a></li>
+                            <li class="navbar__item"><a href="works.html" class="navbar__link">Work</a></li>
+                            <li class="navbar__item"><a href="process.html" class="navbar__link">Process</a></li>
+                            <li class="navbar__item"><a href="about.html" class="navbar__link">About</a></li>
+                            <li class="navbar__item"><a href="careers.html" class="navbar__link">Careers</a></li>
+                        </ul>
+                    </nav>
+                    <a href="#contact-form" class="btn btn--cta" aria-label="Contact SquareUp to start a project">Contact Us</a>
+                </div>
+            </div>
+        </dialog>
+
+        <main>
+            <section class="hero hero--internal" aria-labelledby="hero-title">
+                <h1 class="hero__title" id="hero-title">Contact Us</h1>
+                <p class="hero__text">Get in touch with us today and let us help you with any questions or inquiries you may have.</p>
+            </section>
+
+            <section class="contact" aria-label="Contact information and inquiry form">
+                <address class="contact-links">
+                    <ul class="contact-links__list" aria-label="Contact links">
+                        <li class="contact-links__item">
+                            <a href="mailto:info@example.com" class="contact-links__link" aria-label="Send an email to our team">
+                                <img class="contact-links__icon" src="images/icons/email.svg" alt="" aria-hidden="true" loading="lazy">
+                                <span>info@example.com</span>
+                            </a>
+                        </li>
+                        <li class="contact-links__item">
+                            <a href="tel:+5511999999999" class="contact-links__link" aria-label="Call our support team">
+                                <img class="contact-links__icon" src="images/icons/telephone.svg" alt="" aria-hidden="true" loading="lazy">
+                                <span>+55 (11) 99999-9999</span>
+                            </a>
+                        </li>
+                        <li class="contact-links__item">
+                            <a href="https://maps.google.com" class="contact-links__link" target="_blank" rel="noopener noreferrer" aria-label="View location on Google Maps">
+                                <img class="contact-links__icon" src="images/icons/location.svg" alt="" aria-hidden="true" loading="lazy">
+                                <span>Get Location</span>
+                            </a>
+                        </li>
+                    </ul>
+                </address>
+
+                <form class="contact-form" id="contact-form" onsubmit="return false;">
+                    <div class="contact-form__container">
+                        <div class="contact-form__field">
+                            <label class="contact-form__label" for="name">Full Name</label>
+                            <input class="contact-form__input" type="text" name="name" id="name" placeholder="Your Name" required>
+                        </div>
+
+                        <div class="contact-form__field">
+                            <label class="contact-form__label" for="email">Email</label>
+                            <input class="contact-form__input" type="email" name="email" id="email" placeholder="Your Email" required>
+                        </div>
+
+                        <fieldset class="contact-form__fieldset">
+                            <legend class="contact-form__label">Why are you contacting us?</legend> 
+                            <div class="contact-form__checkbox-group">
+                                <div class="contact-form__checkbox-field">
+                                    <input class="contact-form__checkbox" type="checkbox" id="reason-design" name="reason" value="web-design">
+                                    <label for="reason-design" class="contact-form__checkbox-label">Web Design</label>
+                                </div>
+                                <div class="contact-form__checkbox-field">
+                                    <input class="contact-form__checkbox" type="checkbox" id="reason-mobile" name="reason" value="mobile-app">
+                                    <label for="reason-mobile" class="contact-form__checkbox-label">Mobile App</label>
+                                </div>
+                                <div class="contact-form__checkbox-field">
+                                    <input class="contact-form__checkbox" type="checkbox" id="reason-collaboration" name="reason" value="collaboration">
+                                    <label for="reason-collaboration" class="contact-form__checkbox-label">Collaboration</label>
+                                </div>
+                                <div class="contact-form__checkbox-field">
+                                    <input class="contact-form__checkbox" type="checkbox" id="reason-others" name="reason" value="others">
+                                    <label for="reason-others" class="contact-form__checkbox-label">Others</label>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="contact-form__budget">
+                            <legend class="contact-form__label">Your Budget</legend>
+                            <div class="contact-form__range-container">
+                                <div class="contact-form__range-field">
+                                    <label for="budget-min" class="contact-form__range-label">Min Budget ($)</label>
+                                    <input class="contact-form__range" type="range" id="budget-min" name="budget-min" min="1000" max="50000" step="1000" value="5000" oninput="this.nextElementSibling.value = '$' + this.value">
+                                    <output for="budget-min">$5000</output>
+                                </div>
+                                <div class="contact-form__range-field">
+                                    <label for="budget-max" class="contact-form__range-label">Max Budget ($)</label>
+                                    <input class="contact-form__range" type="range" id="budget-max" name="budget-max" min="1000" max="100000" step="1000" value="20000" oninput="this.nextElementSibling.value = '$' + this.value">
+                                    <output for="budget-max">$20000</output>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <div class="contact-form__field">
+                            <label class="contact-form__label" for="message">Your Message</label>
+                            <textarea class="contact-form__input" name="message" id="message" placeholder="Type Here" rows="4" required></textarea>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn--cta">Submit</button>
+                </form>
+
+                <div class="contact__secondary">
+                    <div class="contact__schedule">
+                        <span class="contact__schedule-label">Operating Days</span>
+                        <time datetime="Mo-Fr" class="contact__schedule-value">Monday to Friday</time>
+                    </div>
+                    <div class="social-links">
+                        <p class="social-links__label" aria-hidden="true">Stay Connected</p>
+                        <ul class="social-links__list" aria-label="Social media links">
+                            <li class="social-links__item"><a href="https://www.facebook.com" class="social-links__link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                                <div class="icon-wrapper icon-wrapper--social">
+                                    <img class="icon-wrapper__icon" src="images/icons/facebook.svg" alt="" aria-hidden="true" loading="lazy">
+                                </div>
+                            </a></li>
+                            <li class="social-links__item"><a href="https://x.com" class="social-links__link" target="_blank" rel="noopener noreferrer" aria-label="X, formerly Twitter">
+                                <div class="icon-wrapper icon-wrapper--social">
+                                    <img class="icon-wrapper__icon" src="images/icons/x-logo.svg" alt="" aria-hidden="true" loading="lazy">
+                                </div>
+                            </a></li>
+                            <li class="social-links__item"><a href="https://www.linkedin.com" class="social-links__link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                                <div class="icon-wrapper icon-wrapper--social">
+                                    <img class="icon-wrapper__icon" src="images/icons/linkedIn.svg" alt="" aria-hidden="true" loading="lazy">
+                                </div>
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="faqs" aria-labelledby="faqs-title">
+                <div class="section-intro section-intro--faqs">
+                    <h2 class="section-intro__title" id="faqs-title">Frequently Asked Questions</h2>
+                    <p class="section-intro__text">Still you have any questions? Contact our Team via <a class="section-intro__contact-link" href="mailto:info@example.com">info@example.com</a></p>
+                </div>
+
+                <ul class="faqs__list" aria-label="List of frequently asked questions">
+                    <li class="faqs__item">
+                        <article class="faq">
+                            <details name="faq-group">
+                                <summary class="faq__question">
+                                    <h3 class="faq__title">What services does SquareUp provide?</h3>
+                                    <div class="icon-wrapper icon-wrapper--open-faq" aria-hidden="true"><span class="icon-wrapper__icon"></span></div>
+                                </summary>
+                                <p class="faq__answer">SquareUp offers a range of services including design, engineering, and project management. We specialize in user experience design, web development, mobile app development, custom software development, branding and identity, and more.</p>
+                            </details>
+                        </article>
+                    </li>
+                    <li class="faqs__item">
+                        <article class="faq">
+                            <details name="faq-group">
+                                <summary class="faq__question">
+                                    <h3 class="faq__title">How can SquareUp help my business?</h3>
+                                    <div class="icon-wrapper icon-wrapper--open-faq" aria-hidden="true"><span class="icon-wrapper__icon"></span></div>
+                                </summary>
+                                <p class="faq__answer">SquareUp helps your business grow by designing and building digital products that are tailored to your goals. We combine strategy, design, and engineering to create solutions that improve user experience, strengthen your brand, and drive measurable results. Whether you need a website, a custom application, or ongoing digital support, our team works closely with you to deliver scalable and impactful solutions.</p>
+                            </details>
+                        </article>
+                    </li>
+                    <li class="faqs__item">
+                        <article class="faq">
+                            <details name="faq-group">
+                                <summary class="faq__question">
+                                    <h3 class="faq__title">What industries does SquareUp work with?</h3>
+                                    <div class="icon-wrapper icon-wrapper--open-faq" aria-hidden="true"><span class="icon-wrapper__icon"></span></div>
+                                </summary>
+                                <p class="faq__answer">SquareUp works with a wide range of industries, including startups, enterprise businesses, media and publishing, e-commerce, real estate, technology, health and fitness, and social impact organizations. Our flexible approach allows us to adapt our expertise to different markets and deliver solutions tailored to each industry’s unique challenges and goals.</p>
+                            </details>
+                        </article>
+                    </li>
+                    <li class="faqs__item">
+                        <article class="faq">
+                            <details name="faq-group">
+                                <summary class="faq__question">
+                                    <h3 class="faq__title">How long does it take to complete a project with SquareUp?</h3>
+                                    <div class="icon-wrapper icon-wrapper--open-faq" aria-hidden="true"><span class="icon-wrapper__icon"></span></div>
+                                </summary>
+                                <p class="faq__answer">Project timelines at SquareUp vary depending on the scope, complexity, and specific requirements of each project. Smaller projects may take a few weeks, while larger and more complex solutions can take several months. We work closely with our clients to define clear milestones and ensure timely delivery without compromising quality.</p>
+                            </details>
+                        </article>
+                    </li>
+                    <li class="faqs__item">
+                        <article class="faq">
+                            <details name="faq-group">
+                                <summary class="faq__question">
+                                    <h3 class="faq__title">Do you offer ongoing support and maintenance after the project is completed?</h3>
+                                    <div class="icon-wrapper icon-wrapper--open-faq" aria-hidden="true"><span class="icon-wrapper__icon"></span></div>
+                                </summary>
+                                <p class="faq__answer">Yes, we do! Our relationship doesn't end at launch. We offer comprehensive support and maintenance packages tailored to your needs, including regular software updates, security patches, performance monitoring, and dedicated technical assistance to ensure your platform remains scalable and up-to-date.</p>
+                            </details>
+                        </article>
+                    </li>
+                    <li class="faqs__item">
+                        <article class="faq">
+                            <details name="faq-group">
+                                <summary class="faq__question">
+                                    <h3 class="faq__title">Can you work with existing design or development frameworks?</h3>
+                                    <div class="icon-wrapper icon-wrapper--open-faq" aria-hidden="true"><span class="icon-wrapper__icon"></span></div>
+                                </summary>
+                                <p class="faq__answer">Absolutely. Our team is highly adaptable and experienced in working with a wide range of design systems and development frameworks. Whether you have an existing codebase that needs scaling or a specific design tool like Figma or Adobe XD that you prefer, we can seamlessly integrate into your current workflow to ensure a smooth and efficient collaboration.</p>
+                            </details>
+                        </article>
+                    </li>
+                    <li class="faqs__item">
+                        <article class="faq">
+                            <details name="faq-group">
+                                <summary class="faq__question">
+                                    <h3 class="faq__title">How involved will I be in the project development process?</h3>
+                                    <div class="icon-wrapper icon-wrapper--open-faq" aria-hidden="true"><span class="icon-wrapper__icon"></span></div>
+                                </summary>
+                                <p class="faq__answer">Your involvement is crucial to the project's success. We follow a collaborative approach where we keep you informed at every stage through regular check-ins, progress reports, and feedback sessions. While we handle all the heavy lifting in design and development, you remain the ultimate decision-maker to ensure the final product perfectly aligns with your vision and business goals.</p>
+                            </details>
+                        </article>
+                    </li>
+                    <li class="faqs__item">
+                        <article class="faq">
+                            <details name="faq-group">
+                                <summary class="faq__question">
+                                    <h3 class="faq__title">How do you handle project pricing and budgets?</h3>
+                                    <div class="icon-wrapper icon-wrapper--open-faq" aria-hidden="true"><span class="icon-wrapper__icon"></span></div>
+                                </summary>
+                                <p class="faq__answer">We offer project-based pricing tailored to the specific scope and complexity of your needs. After our initial discovery call, we provide a detailed proposal with transparent costs and milestones, ensuring there are no hidden fees or surprises along the way.</p>
+                            </details>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="final-cta" aria-labelledby="final-cta-title">
+                <img class="agency-logo agency-logo--final-cta" src="images/logos/logo-agency-abstract.svg" alt="Abstract agency logo" loading="lazy">
+                <h2 class="final-cta__title" id="final-cta-title">Looking for a career opportunity?</h2>
+                <p class="final-cta__text">We are always searching for talented designers and developers to join our remote-first team. Check our open positions and find your place at SquareUp.</p>
+                <a href="careers.html" class="btn btn--cta" aria-label="View open job positions at SquareUp">View Openings</a>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="footer__top">
+                    <img class="agency-logo agency-logo--footer" src="images/logos/logo-agency-sm.svg" alt="SquareUp agency logo" loading="lazy">
+                    <nav class="navbar navbar--footer" aria-label="Footer navigation links to site pages">
+                        <ul class="navbar__list">
+                            <li class="navbar__item"><a href="index.html" class="navbar__link">Home</a></li>
+                            <li class="navbar__item"><a href="services.html" class="navbar__link">Services</a></li>
+                            <li class="navbar__item"><a href="works.html" class="navbar__link">Work</a></li>
+                            <li class="navbar__item"><a href="process.html" class="navbar__link">Process</a></li>
+                            <li class="navbar__item"><a href="about.html" class="navbar__link">About</a></li>
+                            <li class="navbar__item"><a href="careers.html" class="navbar__link">Careers</a></li>
+                            <li class="navbar__item"><a href="#" class="navbar__link" aria-current="page">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class="social-links">
+                        <p class="social-links__label" aria-hidden="true">Stay Connected</p>
+                        <ul class="social-links__list" aria-label="Social media links">
+                            <li class="social-links__item"><a href="https://www.facebook.com" class="social-links__link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                                <div class="icon-wrapper icon-wrapper--social">
+                                    <img class="icon-wrapper__icon" src="images/icons/facebook.svg" alt="" aria-hidden="true" loading="lazy">
+                                </div>
+                            </a></li>
+                            <li class="social-links__item"><a href="https://x.com" class="social-links__link" target="_blank" rel="noopener noreferrer" aria-label="X, formerly Twitter">
+                                <div class="icon-wrapper icon-wrapper--social">
+                                    <img class="icon-wrapper__icon" src="images/icons/x-logo.svg" alt="" aria-hidden="true" loading="lazy">
+                                </div>
+                            </a></li>
+                            <li class="social-links__item"><a href="https://www.linkedin.com" class="social-links__link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                                <div class="icon-wrapper icon-wrapper--social">
+                                    <img class="icon-wrapper__icon" src="images/icons/linkedIn.svg" alt="" aria-hidden="true" loading="lazy">
+                                </div>
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__bottom">
+                    <address class="contact-links" aria-label="Contact information">
+                        <ul class="contact-links__list">
+                            <li class="contact-links__item">
+                                <a href="mailto:info@example.com" class="contact-links__link" aria-label="Send an email to our team">
+                                    <img class="contact-links__icon" src="images/icons/email.svg" alt="" aria-hidden="true" loading="lazy">
+                                    <span>info@example.com</span>
+                                </a>
+                            </li>
+                            <li class="contact-links__item">
+                                <a href="tel:+5511999999999" class="contact-links__link" aria-label="Call our support team">
+                                    <img class="contact-links__icon" src="images/icons/telephone.svg" alt="" aria-hidden="true" loading="lazy">
+                                    <span>+55 (11) 99999-9999</span>
+                                </a>
+                            </li>
+                            <li class="contact-links__item">
+                                <a href="https://maps.google.com" class="contact-links__link" target="_blank" rel="noopener noreferrer" aria-label="View location on Google Maps">
+                                    <img class="contact-links__icon" src="images/icons/location.svg" alt="" aria-hidden="true" loading="lazy">
+                                    <span>Somewhere in the World</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </address>
+                    <p class="footer__copy">© 2026 SquareUp. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
