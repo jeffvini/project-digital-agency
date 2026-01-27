@@ -85,6 +85,65 @@
                     </ul>
                 </address>
 
+                <form class="contact-form" id="contact-form" onsubmit="return false;">
+                    <div class="contact-form__container">
+                        <div class="contact-form__field">
+                            <label class="contact-form__label" for="name">Full Name</label>
+                            <input class="contact-form__input" type="text" name="name" id="name" placeholder="Your Name" required>
+                        </div>
+
+                        <div class="contact-form__field">
+                            <label class="contact-form__label" for="email">Email</label>
+                            <input class="contact-form__input" type="email" name="email" id="email" placeholder="Your Email" required>
+                        </div>
+
+                        <fieldset class="contact-form__fieldset">
+                            <legend class="contact-form__label">Why are you contacting us?</legend> 
+                            <div class="contact-form__checkbox-group">
+                                <div class="contact-form__checkbox-field">
+                                    <input class="contact-form__checkbox-input" type="checkbox" id="reason-design" name="reason" value="web-design">
+                                    <label for="reason-design" class="contact-form__checkbox-label">Web Design</label>
+                                </div>
+                                <div class="contact-form__checkbox-field">
+                                    <input class="contact-form__checkbox-input" type="checkbox" id="reason-mobile" name="reason" value="mobile-app">
+                                    <label for="reason-mobile" class="contact-form__checkbox-label">Mobile App</label>
+                                </div>
+                                <div class="contact-form__checkbox-field">
+                                    <input class="contact-form__checkbox-input" type="checkbox" id="reason-collaboration" name="reason" value="collaboration">
+                                    <label for="reason-collaboration" class="contact-form__checkbox-label">Collaboration</label>
+                                </div>
+                                <div class="contact-form__checkbox-field">
+                                    <input class="contact-form__checkbox-input" type="checkbox" id="reason-others" name="reason" value="others">
+                                    <label for="reason-others" class="contact-form__checkbox-label">Others</label>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="contact-form__budget">
+                            <legend class="contact-form__label">Your Budget</legend>
+                            <div class="contact-form__range-container">
+                                <div class="contact-form__range-field">
+                                    <label for="budget-min" class="contact-form__range-label">Min Budget ($)</label>
+                                    <input class="contact-form__range" type="range" id="budget-min" name="budget-min" min="1000" max="50000" step="1000" value="5000" oninput="this.nextElementSibling.value = '$' + this.value">
+                                    <output for="budget-min">$5000</output>
+                                </div>
+                                <div class="contact-form__range-field">
+                                    <label for="budget-max" class="contact-form__range-label">Max Budget ($)</label>
+                                    <input class="contact-form__range" type="range" id="budget-max" name="budget-max" min="1000" max="100000" step="1000" value="20000" oninput="this.nextElementSibling.value = '$' + this.value">
+                                    <output for="budget-max">$20000</output>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <div class="contact-form__field">
+                            <label class="contact-form__label" for="message">Your Message</label>
+                            <textarea class="contact-form__input" name="message" id="message" placeholder="Type Here" rows="4" required></textarea>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn--cta">Submit</button>
+                </form>
+
                 <div class="contact__secondary">
                     <div class="contact__schedule">
                         <span class="contact__schedule-label">Operating Days</span>
