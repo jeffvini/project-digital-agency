@@ -2,8 +2,67 @@
     padding-block: var(--space-8);
 }
 
+.contact-page .contact__secondary {
+    display: flex;
+    flex-direction: column;
+    border-top: solid 1px var(--color-border-accent-grey);
+    padding-top: var(--space-6);
+}
+
+.contact-page .contact__schedule {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--space-4);
+    border-bottom: solid 1px var(--color-border-accent-grey);
+    padding-inline: var(--space-5);
+    padding-bottom: var(--space-6);
+}
+
+.contact-page .contact__schedule-label {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-text-lg);
+    font-weight: var(--font-weight-medium);
+    text-align: center;
+}
+
+.contact-page .contact__schedule-value {
+    background-color: var(--color-background-accent-grey-2);
+    color: var(--color-text-secondary);
+    font-weight: var(--font-weight-medium);
+    text-align: center;
+    border-radius: var(--radius-md);
+    padding-block: var(--space-3);
+    padding-inline: var(--space-4);
+}
+
 @media (min-width: 768px) {
     .contact-page .contact {
+        padding-top: var(--space-10);
+        padding-bottom: 0;
+    }
+
+    .contact-page .contact__secondary {
+        flex-direction: row;
+        align-items: stretch;
+        padding-inline: var(--space-10);
+        padding-top: 0;
+    }
+
+    .contact-page .contact__schedule {
+        box-sizing: content-box;
+        flex: 1 1 50%;
+        border-bottom: none;
+        border-right: solid 1px var(--color-border-accent-grey);
+        padding-inline: 0;
+        padding-bottom: 0;
         padding-block: var(--space-10);
+        padding-right: var(--space-12);
     }
 } 
+
+@media (min-width: 1024px) {
+    .contact-page .contact__schedule {
+        padding-right: var(--space-16);
+    }
+}
