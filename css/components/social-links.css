@@ -32,11 +32,12 @@
 
 @media (min-width: 768px) {
     .contact-page .contact .social-links {
+        box-sizing: content-box;
+        align-items: center;
+        justify-content: center;
         flex: 1 1 50%;
-        margin-left: var(--space-12);
-        margin-block: var(--space-10);
-        padding-block: var(--space-3);
-        padding-inline: var(--space-4);
+        margin: 0;
+        padding: var(--space-10);
     }
 }
 
@@ -51,9 +52,5 @@
 
     .social-links__list {
         margin-top: 0;
-    }
-
-    .contact-page .contact .social-links {
-        margin-left: var(--space-16);
     }
 }

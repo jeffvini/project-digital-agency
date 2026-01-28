@@ -45,7 +45,6 @@
     .contact-page .contact__secondary {
         flex-direction: row;
         align-items: stretch;
-        padding-inline: var(--space-10);
         padding-top: 0;
     }
 
@@ -56,13 +55,6 @@
         border-right: solid 1px var(--color-border-accent-grey);
         padding-inline: 0;
         padding-bottom: 0;
-        padding-block: var(--space-10);
-        padding-right: var(--space-12);
+        padding: var(--space-10);
     }
 } 
-
-@media (min-width: 1024px) {
-    .contact-page .contact__schedule {
-        padding-right: var(--space-16);
-    }
-}
