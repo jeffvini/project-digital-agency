@@ -24,6 +24,23 @@
     width: max-content;
 }
 
+.contact-page .contact .social-links {
+    border: none;
+    padding-block: 0;
+    padding-inline: var(--space-5);
+}
+
+@media (min-width: 768px) {
+    .contact-page .contact .social-links {
+        box-sizing: content-box;
+        align-items: center;
+        justify-content: center;
+        flex: 1 1 50%;
+        margin: 0;
+        padding: var(--space-10);
+    }
+}
+
 @media (min-width: 1024px) {
     .social-links {
         flex-direction: row;
