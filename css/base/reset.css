@@ -46,11 +46,15 @@ button {
     cursor: pointer;
 }
 
+fieldset {
+    border: none;
+}
+
 input, textarea {
     cursor: text;
 }
 
-input[type="checkbox"] {
+input[type="checkbox"], input[type="range"] {
     cursor: pointer;
 }
 
