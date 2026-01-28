@@ -34,6 +34,10 @@
     resize: vertical;
 }
 
+.contact-page .contact-form {
+    scroll-margin-top: var(--space-20);
+}
+
 .contact-page :is(.contact-form__reason .contact-form__label, .contact-form__budget .contact-form__label) {
     margin-bottom: var(--space-2);
 }
@@ -111,7 +115,7 @@
 @media (min-width: 768px) {
     .contact-form {
         padding-block: var(--space-10);
-        margin-inline: var(--space-10);
+        margin-inline: var(--space-16);
         gap: var(--space-8);
     }
 
@@ -155,5 +159,11 @@
         padding-block: var(--space-16);
         margin-inline: calc(var(--space-20) * 1.5);
         gap: var(--space-8);
+    }
+}
+
+@media (min-width: 1280px) {
+    .contact-form {
+        margin-inline: calc(var(--space-20) * 2.3)
     }
 }
