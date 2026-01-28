@@ -74,7 +74,7 @@
     border-radius: 0.25rem;
 }
 
-.contact-form__checkbox::before {
+.contact-page .contact-form__checkbox::before {
     display: none;
     content: "";
     width: 0.625rem;
@@ -85,7 +85,7 @@
     margin-bottom: 0.125rem;
 }
 
-.contact-form__checkbox:checked::before {
+.contact-page .contact-form__checkbox:checked::before {
     display: block;
 }
 
@@ -106,7 +106,7 @@
     flex-wrap: wrap;
 }
 
-.contact-form__range {
+.contact-page .contact-form__range {
     accent-color: var(--color-background-accent-green-1);
     width: 100%;
     height: 5px; 
