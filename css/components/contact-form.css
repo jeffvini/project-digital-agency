@@ -34,6 +34,17 @@
     resize: vertical;
 }
 
+.contact-page :is(.contact-form__reason .contact-form__label, .contact-form__budget .contact-form__label) {
+    margin-bottom: var(--space-2);
+}
+
+.contact-page :is(.contact-form__checkbox-group, .contact-form__range-container) {
+    padding: var(--space-4);
+    background-color: var(--color-background-accent-grey-2);
+    border: solid 1px var(--color-border-accent-grey);
+    border-radius: var(--radius-md);
+}
+
 @media (min-width: 768px) {
     .contact-form {
         padding-block: var(--space-10);
@@ -52,6 +63,14 @@
 
     .contact-form__field:has(.contact-form__label[for="message"]) {
         grid-column: span 2;
+    }
+
+    .contact-page :is(.contact-form__reason, .contact-form__budget) {
+        grid-column: span 2;
+    }
+
+    .contact-page :is(.contact-form__reason .contact-form__label, .contact-form__budget .contact-form__label) {
+        margin-bottom: var(--space-3);
     }
 }
 
