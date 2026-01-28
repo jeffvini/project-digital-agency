@@ -53,8 +53,6 @@
         flex: 1 1 50%;
         border-bottom: none;
         border-right: solid 1px var(--color-border-accent-grey);
-        padding-inline: 0;
-        padding-bottom: 0;
         padding: var(--space-10);
     }
 } 
