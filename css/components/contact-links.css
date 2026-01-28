@@ -53,6 +53,7 @@
 @media (min-width: 768px) {
     .contact-page .contact .contact-links__list {
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
         padding-inline: var(--space-10);
         padding-bottom: var(--space-10);
