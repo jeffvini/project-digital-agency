@@ -77,12 +77,12 @@
 .contact-form__checkbox::before {
     display: none;
     content: "";
-    width: 10px;
-    height: 5px;
+    width: 0.625rem;
+    height: 0.3125rem;
     border-left: 2px solid var(--color-background-accent-green-1); 
     border-bottom: 2px solid var(--color-background-accent-green-1); 
     transform: rotate(-45deg);
-    margin-bottom: 2px;
+    margin-bottom: 0.125rem;
 }
 
 .contact-form__checkbox:checked::before {
