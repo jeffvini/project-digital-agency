@@ -40,6 +40,10 @@
     line-height: var(--line-height-heading);
 }
 
+.process-page .process__step-text {
+    color: var(--color-grey-200);
+}
+
 @media (min-width: 768px) {
     .process-page .process {
         padding-top: var(--space-12);
