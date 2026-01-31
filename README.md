@@ -8,6 +8,17 @@ The main objective of this project is to demonstrate the ability to translate a 
 
 ---
 
+## 🚀 Performance & Audits (PageSpeed Insights)
+
+This project has been rigorously optimized to provide the best user experience and search engine visibility. All pages achieved top scores in **Google PageSpeed Insights** audits:
+
+* **SEO:** 100/100
+* **Accessibility:** 100/100
+* **Best Practices:** 100/100
+* **Performance:** 99-100 (Desktop) | 91+ (Mobile)
+
+---
+
 ## 🌐 Demo
 
 **Live Site:** [https://jeffvini.github.io/project-digital-agency/](https://jeffvini.github.io/project-digital-agency/)
