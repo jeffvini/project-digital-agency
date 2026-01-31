@@ -53,6 +53,7 @@
 }
 
 .works-page .project__text {
+    color: var(--color-grey-200);
     padding-inline: var(--space-5);
 }
 
